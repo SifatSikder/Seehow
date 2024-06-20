@@ -1,0 +1,82 @@
+Here are totally 17 classes of actions so far
+0:others
+1:cursor
+2:mouse move over text region
+3:mouse move over non-text region
+4:mouse trigger popup appear
+5:mouse trigger popup disappear
+6:enter text
+7:enter text trigger popup appear
+8:enter text trigger popup disapper
+9:delete text
+10:popup
+11:select text
+12:deselect text
+13:scroll text
+14:switch window
+15:click enter
+16:paste
+17:click mouse left button
+18:replace
+
+If you find some other action classes during labeling, just append them.
+
+I will elaborate each class in the following
+
+0:others
+Any image that you cannot recognize or is not included in the 16 classes below is labeled "others", you only need to click "n" to the next image.
+
+1:cursor
+Cursor flash, move cursor by keyboard
+
+2:mouse move over text region
+Something like "I"
+
+3:mouse move over non-text region
+Mouse pointer
+
+4:mouse trigger popup appear
+When mouse points to an API, it will trigger a popup. The first image should contain mouse but not popup, the second image should contain popup.
+
+5:mouse trigger popup disappear
+When mouse moves away from an API, the popup disapper. The first image should contain popup, the second image should contain mouse but not popup. 
+
+6:enter text
+Keep typing
+
+7:enter text trigger popup appear
+Similar to class 4
+
+8:enter text trigger popup disappear
+Similar to class 5
+
+9:delete text
+As the name
+
+10:popup
+Both two images contain popup
+
+11:select text
+Select text from left to right, from right to left and a block.
+
+12:deselect text
+Cacel the selected region
+
+13:scroll text
+Scrll text using mouse wheel or scroll bar
+
+14:switch window
+Switch to another window
+
+15:click enter
+Click enter to add a new line
+
+16:paste
+Copy a piece of code from other place and paste it. We only care about the paste action
+
+17:click mouse left button
+click left button to select another line
+
+18:replace
+select a bunch of code and replace it with other code
+
