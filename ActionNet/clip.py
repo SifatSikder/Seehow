@@ -1,4 +1,3 @@
-from skimage.measure import compare_ssim
 import imutils
 import cv2
 import numpy as np
@@ -7,23 +6,11 @@ import os
 from scipy import misc
 from xml.dom import minidom
 
-video_path = '/media/cheer/Elements/LiveCoding/TurtleWolfe'
-name = '10.mp4'
-output_path = '/home/cheer/Project/video_test/action_data'
-parts = ['t0', 't1', 't2', 't3', 'Annotation']
-train_size = 299
+
 
 def nothing(emp):
   pass
 
-def make_dirs():
-  folder_name = os.path.splitext(name)[0]
-  for part in parts:
-    if not os.path.exists(os.path.join(output_path, folder_name, part)):
-      print 'create folder {}'.format(folder_name)
-      os.makedirs(os.path.join(output_path, folder_name, part))
-    else:
-      print 'folder {} exist'.format(folder_name)
 
 def find_max_box(boxes_nms):
   if len(boxes_nms) == 0:
@@ -166,76 +153,97 @@ def add_image_information(doc, new_information):
     annotation.appendChild(box)
     return doc
 
+
+video_path = 'D:/Seehow/ActionNet/media/3'  # Change as needed
+name = 'Python Tutorial for Beginners 16 - Class Constructors (_init_) and Destructor  (_del_).mp4'
+output_path = 'D:/Seehow/ActionNet/output'  # Adjusted path for output
+parts = ['t0', 't1', 't2', 't3', 'Annotation']
+train_size = 299
+
+
+def make_dirs():
+    folder_name = os.path.splitext(name)[0]
+    for part in parts:
+        folder_path = f"{output_path}/{folder_name}/{part}"
+        if not os.path.exists(folder_path):
+            print('created folder: {}'.format(folder_path))
+            os.makedirs(folder_path)
+        else:
+            print('folder: {} exists'.format(folder_path))
+
 def start():
   make_dirs()
-  video = os.path.join(video_path, name)
+  # video = os.path.join(video_path, name)
+  video = f"{video_path}/{name}"
   folder_name = os.path.splitext(name)[0]
   box_o = [0,0,0,0]
   cv2.namedWindow(name, cv2.WINDOW_NORMAL)
   cap = cv2.VideoCapture(video)
+  print(f'video: {video}')
   width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
   height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
   frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-  cv2.createTrackbar('time', name, 0, frames, nothing)
-  loop_flag = 0
-  pos = 0
-  if cap.isOpened():
-    ret, frameA = cap.read()
-  while(cap.isOpened()):
-    if loop_flag == pos:
-      loop_flag = loop_flag + 1
-      cv2.setTrackbarPos('time', name, loop_flag)
-    else:
-      pos = cv2.getTrackbarPos('time', name)
-      loop_flag = pos
-      cap.set(cv2.CAP_PROP_POS_FRAMES, pos)
-    ret, frameB = cap.read()
-    try:
-      diff, thresh, cnts, score= compare_frame(frameA, frameB)
-    except:
-      break
-    frameC = frameB.copy()
-    frameD = frameB.copy()
-    mask_region = np.zeros((frameB.shape[0], frameB.shape[1]), np.uint8)
-    boxes = convert_box(cnts)
-    boxes_nms = non_max_suppression(boxes, 0.3)
-    max_box = find_max(boxes_nms)
-    max_region_box = find_max_region(boxes_nms)
+  print(f'width:{width}, height:{height}, frame_count: {frames}')
+  # cv2.createTrackbar('time', name, 0, frames, nothing)
+  # loop_flag = 0
+  # pos = 0
+  # if cap.isOpened():
+  #   ret, frameA = cap.read()
+  # while(cap.isOpened()):
+  #   if loop_flag == pos:
+  #     loop_flag = loop_flag + 1
+  #     cv2.setTrackbarPos('time', name, loop_flag)
+  #   else:
+  #     pos = cv2.getTrackbarPos('time', name)
+  #     loop_flag = pos
+  #     cap.set(cv2.CAP_PROP_POS_FRAMES, pos)
+  #   ret, frameB = cap.read()
+  #   try:
+  #     diff, thresh, cnts, score= compare_frame(frameA, frameB)
+  #   except:
+  #     break
+  #   frameC = frameB.copy()
+  #   frameD = frameB.copy()
+  #   mask_region = np.zeros((frameB.shape[0], frameB.shape[1]), np.uint8)
+  #   boxes = convert_box(cnts)
+  #   boxes_nms = non_max_suppression(boxes, 0.3)
+  #   max_box = find_max(boxes_nms)
+  #   max_region_box = find_max_region(boxes_nms)
 
-    for box in boxes_nms:
-      cv2.rectangle(mask_region, (box[0], box[1]), (box[2], box[3]), (255, 255, 255), -1)
+  #   for box in boxes_nms:
+  #     cv2.rectangle(mask_region, (box[0], box[1]), (box[2], box[3]), (255, 255, 255), -1)
 
-    if len(boxes_nms):
-      cv2.rectangle(frameC, (max_region_box[0], max_region_box[1]), (max_region_box[2], max_region_box[3]), (0, 255, 0), 2)
-      max_region_A = frameA[max_region_box[1]:max_region_box[3], max_region_box[0]:max_region_box[2]].copy()
-      mask_region = mask_region[max_region_box[1]:max_region_box[3], max_region_box[0]:max_region_box[2]].copy()
-      max_region_D = frameD[max_region_box[1]:max_region_box[3], max_region_box[0]:max_region_box[2]].copy()
-      region_A = cv2.bitwise_and(max_region_A, max_region_A, mask = mask_region)
-      region_D = cv2.bitwise_and(max_region_D, max_region_D, mask = mask_region) 
-      f_rate = train_size * 1.0 / max(region_A.shape[0], region_A.shape[1])
-      region_A = cv2.resize(region_A, (0,0), fx = f_rate, fy = f_rate) 
-      region_D = cv2.resize(region_D, (0,0), fx = f_rate, fy = f_rate) 
-      img_A = to_canvas(region_A)
-      img_D = to_canvas(region_D)
-      cv2.imwrite(os.path.join(output_path, folder_name, parts[0], '{:05}'.format(pos) + '.jpg'), img_A)  
-      cv2.imwrite(os.path.join(output_path, folder_name, parts[1], '{:05}'.format(pos) + '.jpg'), img_D) 
-      cv2.imwrite(os.path.join(output_path, folder_name, parts[2], '{:05}'.format(pos) + '.jpg'), frameA)  
-      cv2.imwrite(os.path.join(output_path, folder_name, parts[3], '{:05}'.format(pos) + '.jpg'), frameD) 
-      doc = minidom.Document()
-      doc = add_image_information(doc, {'videoname':folder_name, 'pos':'{:05}'.format(pos)})
-      for bbox in boxes_nms:
-        doc = add_box(doc, {'name':'bndbox','xmin':str(bbox[0]),'ymin':str(bbox[1]),'xmax':str(bbox[2]),'ymax':str(bbox[3])})
-      doc = add_box(doc, {'name':'max_box','xmin':str(max_box[0]),'ymin':str(max_box[1]),'xmax':str(max_box[2]),'ymax':str(max_box[3])})
-      doc = add_box(doc, {'name':'max_region','xmin':str(max_region_box[0]),'ymin':str(max_region_box[1]),'xmax':str(max_region_box[2]),'ymax':str(max_region_box[3])})
-      with open(os.path.join(output_path, folder_name, parts[4], '{:05}'.format(pos) + '.xml'), 'w') as f_annotation:
-        f_annotation.write(doc.toprettyxml(indent = "\t", newl = "\n", encoding = "utf-8"))
-    cv2.imshow(name, frameC)
-    frameA = frameB.copy()
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-      break
+  #   if len(boxes_nms):
+  #     cv2.rectangle(frameC, (max_region_box[0], max_region_box[1]), (max_region_box[2], max_region_box[3]), (0, 255, 0), 2)
+  #     max_region_A = frameA[max_region_box[1]:max_region_box[3], max_region_box[0]:max_region_box[2]].copy()
+  #     mask_region = mask_region[max_region_box[1]:max_region_box[3], max_region_box[0]:max_region_box[2]].copy()
+  #     max_region_D = frameD[max_region_box[1]:max_region_box[3], max_region_box[0]:max_region_box[2]].copy()
+  #     region_A = cv2.bitwise_and(max_region_A, max_region_A, mask = mask_region)
+  #     region_D = cv2.bitwise_and(max_region_D, max_region_D, mask = mask_region) 
+  #     f_rate = train_size * 1.0 / max(region_A.shape[0], region_A.shape[1])
+  #     region_A = cv2.resize(region_A, (0,0), fx = f_rate, fy = f_rate) 
+  #     region_D = cv2.resize(region_D, (0,0), fx = f_rate, fy = f_rate) 
+  #     img_A = to_canvas(region_A)
+  #     img_D = to_canvas(region_D)
+  #     cv2.imwrite(os.path.join(output_path, folder_name, parts[0], '{:05}'.format(pos) + '.jpg'), img_A)  
+  #     cv2.imwrite(os.path.join(output_path, folder_name, parts[1], '{:05}'.format(pos) + '.jpg'), img_D) 
+  #     cv2.imwrite(os.path.join(output_path, folder_name, parts[2], '{:05}'.format(pos) + '.jpg'), frameA)  
+  #     cv2.imwrite(os.path.join(output_path, folder_name, parts[3], '{:05}'.format(pos) + '.jpg'), frameD) 
+  #     doc = minidom.Document()
+  #     doc = add_image_information(doc, {'videoname':folder_name, 'pos':'{:05}'.format(pos)})
+  #     for bbox in boxes_nms:
+  #       doc = add_box(doc, {'name':'bndbox','xmin':str(bbox[0]),'ymin':str(bbox[1]),'xmax':str(bbox[2]),'ymax':str(bbox[3])})
+  #     doc = add_box(doc, {'name':'max_box','xmin':str(max_box[0]),'ymin':str(max_box[1]),'xmax':str(max_box[2]),'ymax':str(max_box[3])})
+  #     doc = add_box(doc, {'name':'max_region','xmin':str(max_region_box[0]),'ymin':str(max_region_box[1]),'xmax':str(max_region_box[2]),'ymax':str(max_region_box[3])})
+  #     with open(os.path.join(output_path, folder_name, parts[4], '{:05}'.format(pos) + '.xml'), 'w') as f_annotation:
+  #       f_annotation.write(doc.toprettyxml(indent = "\t", newl = "\n", encoding = "utf-8"))
+  #   cv2.imshow(name, frameC)
+  #   frameA = frameB.copy()
+  #   if cv2.waitKey(1) & 0xFF == ord('q'):
+  #     break
 
-  cap.release()
-  cv2.destroyAllWindows()
+  # cap.release()
+  # cv2.destroyAllWindows()
 
 
 if __name__ == '__main__':
