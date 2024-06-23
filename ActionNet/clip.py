@@ -7,9 +7,10 @@ import os
 from scipy import misc
 from xml.dom import minidom
 
-video_path = 'D:/Seehow/ActionNet/media/3'
-name = '3_5.webm'
+video_path = 'D:/Seehow/ActionNet/media/videos'
+name = 'Python Tutorial for Beginners 16 - Class Constructors (_init_) and Destructor  (_del_).mp4'
 output_path = 'D:/Seehow/ActionNet/output'
+output_images_path = 'D:/Seehow/ActionNet/output/images'
 parts = ['t0', 't1', 't2', 't3', 'Annotation']
 train_size = 299
 
@@ -45,18 +46,25 @@ def add_image_information(doc, new_information):
     return doc
   
 def to_canvas(region):
-  canvas = np.zeros((train_size, train_size, 3), np.uint8)
-  if region.shape[0] > region.shape[1]:
-    if region.shape[1] % 2:
-      canvas[:, train_size / 2 - (region.shape[1] / 2):train_size / 2 + (region.shape[1] / 2) + 1] = region
+    canvas = np.zeros((train_size, train_size, 3), np.uint8)
+    region_h, region_w = region.shape[:2]
+    
+    if region_h > region_w:
+        y1 = train_size // 2 - region_w // 2
+        y2 = y1 + region_w
+        x1 = 0
+        x2 = train_size
     else:
-      canvas[:, train_size / 2 - (region.shape[1] / 2):train_size / 2 + (region.shape[1] / 2)] = region
-  else:
-    if region.shape[0] % 2:
-      canvas[train_size / 2 - (region.shape[0] / 2):train_size / 2 + (region.shape[0] / 2) + 1, :] = region
-    else:
-      canvas[train_size / 2 - (region.shape[0] / 2):train_size / 2 + (region.shape[0] / 2), :] = region
-  return canvas
+        x1 = train_size // 2 - region_h // 2
+        x2 = x1 + region_h
+        y1 = 0
+        y2 = train_size
+
+    canvas[x1:x2, y1:y2] = region
+    return canvas
+  # Should output (299, 299, 3)
+
+
 
 def find_max_region(boxes_nms):
   if len(boxes_nms) == 0:
@@ -136,18 +144,16 @@ def convert_box(cnts):
     return box
 
 def compare_frame(frameA, frameB):
-  grayA = cv2.cvtColor(frameA, cv2.COLOR_BGR2GRAY)
-  grayB = cv2.cvtColor(frameB, cv2.COLOR_BGR2GRAY)
+    grayA = cv2.cvtColor(frameA, cv2.COLOR_BGR2GRAY)
+    grayB = cv2.cvtColor(frameB, cv2.COLOR_BGR2GRAY)
 
-  score, diff = ssim(grayA, grayB, full=True)
-  diff = (diff * 255).astype("uint8")
-  print("SSIM: {}".format(score))
+    score, diff = ssim(grayA, grayB, full=True)
+    diff = (diff * 255).astype("uint8")
 
-  thresh = cv2.threshold(diff, 180, 255, cv2.THRESH_BINARY_INV)[1]
-  cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-  cnts = cnts[0] if imutils.is_cv2() else cnts[1]
+    thresh = cv2.threshold(diff, 180, 255, cv2.THRESH_BINARY_INV)[1]
+    cnts, _ = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-  return diff, thresh, cnts, score
+    return diff, thresh, cnts, score
 
 def nothing(emp):
   pass
@@ -162,34 +168,22 @@ def make_dirs():
         else:
             print('folder: {} exists'.format(folder_path))
 
+def create_frames_from_videos():
+  os.makedirs(output_images_path, exist_ok=True)
+  cmd = f'ffmpeg -i "{video_path}/{name}" -q:v 1 -r 1 "{output_images_path}/%05d.jpg"'
+  os.system(cmd)
+
 def start():
   make_dirs()
-  video = f"{video_path}/{name}"
+  # create_frames_from_videos()
   folder_name = os.path.splitext(name)[0]
-  box_o = [0,0,0,0]
-  cv2.namedWindow(name, cv2.WINDOW_NORMAL)
-  cap = cv2.VideoCapture(video)
-  print(f'video: {video}')
-  width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
-  height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
-  frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-  print(f'width:{width}, height:{height}, frame_count: {frames}')
-  cv2.createTrackbar('time', name, 0, frames, nothing)
-  loop_flag = 0
-  pos = 0
-  if cap.isOpened():
-    ret, frameA = cap.read()
-    print(f'ret:{ret}, frameA:{frameA}')
-  count=0  
-  while(cap.isOpened()):
-    if loop_flag == pos:
-      loop_flag = loop_flag + 1
-      cv2.setTrackbarPos('time', name, loop_flag)
-    else:
-      pos = cv2.getTrackbarPos('time', name)
-      loop_flag = pos
-      cap.set(cv2.CAP_PROP_POS_FRAMES, pos)
-    ret, frameB = cap.read()
+  image_list = os.listdir(output_images_path)
+  image_list.sort()
+  box_list = []
+  frameA = cv2.imread(os.path.join(output_images_path,image_list[0]))
+  pos=0
+  for image_file in image_list:
+    frameB = cv2.imread(os.path.join(output_images_path, image_file))
     try:
       diff, thresh, cnts, score= compare_frame(frameA, frameB)
     except:
@@ -201,8 +195,8 @@ def start():
     boxes_nms = non_max_suppression(boxes, 0.3)
     max_box = find_max(boxes_nms)
     max_region_box = find_max_region(boxes_nms)
-    print(f'{count}/{frames}==> boxes:{boxes}, boxes_nms:{boxes_nms}, max_box: {max_box}, max_region_box: {max_region_box}')
-    count= count+1
+    print(f'{pos}/{len (image_list)}==> boxes:{boxes}, boxes_nms:{boxes_nms}, max_box: {max_box}, max_region_box: {max_region_box}')
+    pos= pos+1
 
     for box in boxes_nms:
       cv2.rectangle(mask_region, (box[0], box[1]), (box[2], box[3]), (255, 255, 255), -1)
@@ -230,14 +224,7 @@ def start():
       doc = add_box(doc, {'name':'max_box','xmin':str(max_box[0]),'ymin':str(max_box[1]),'xmax':str(max_box[2]),'ymax':str(max_box[3])})
       doc = add_box(doc, {'name':'max_region','xmin':str(max_region_box[0]),'ymin':str(max_region_box[1]),'xmax':str(max_region_box[2]),'ymax':str(max_region_box[3])})
       with open(f"{output_path}/{folder_name}/{parts[4]}/{pos:05}.xml", 'w') as f_annotation:
-        f_annotation.write(doc.toprettyxml(indent = "\t", newl = "\n", encoding = "utf-8"))
-    cv2.imshow(name, frameC)
+        f_annotation.write(doc.toprettyxml(indent = "\t", newl = "\n"))
     frameA = frameB.copy()
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-      break
 
-  cap.release()
-  cv2.destroyAllWindows()
-
-if __name__ == '__main__':
-  start()
+start()

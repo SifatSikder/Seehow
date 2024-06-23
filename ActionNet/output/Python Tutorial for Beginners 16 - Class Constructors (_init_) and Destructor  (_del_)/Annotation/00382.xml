@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<annotation>
+	<videoname>Python Tutorial for Beginners 16 - Class Constructors (_init_) and Destructor  (_del_)</videoname>
+	<box>
+		<pos>00382</pos>
+	</box>
+	<bndbox>
+		<xmin>762</xmin>
+		<ymin>1060</ymin>
+		<xmax>786</xmax>
+		<ymax>1080</ymax>
+	</bndbox>
+	<bndbox>
+		<xmin>693</xmin>
+		<ymin>1041</ymin>
+		<xmax>700</xmax>
+		<ymax>1075</ymax>
+	</bndbox>
+	<bndbox>
+		<xmin>824</xmin>
+		<ymin>1029</ymin>
+		<xmax>836</xmax>
+		<ymax>1073</ymax>
+	</bndbox>
+	<bndbox>
+		<xmin>1468</xmin>
+		<ymin>1044</ymin>
+		<xmax>1477</xmax>
+		<ymax>1063</ymax>
+	</bndbox>
+	<max_box>
+		<xmin>824</xmin>
+		<ymin>1029</ymin>
+		<xmax>836</xmax>
+		<ymax>1073</ymax>
+	</max_box>
+	<max_region>
+		<xmin>693</xmin>
+		<ymin>1029</ymin>
+		<xmax>1477</xmax>
+		<ymax>1080</ymax>
+	</max_region>
+</annotation>
