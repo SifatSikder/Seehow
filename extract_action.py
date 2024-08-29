@@ -2,18 +2,18 @@ import numpy as np
 import os
 import sys
 import re
-sys.path.append('/home/cheer/Project/ActionNet/lib')
+sys.path.append('/content/Seehow/lib')
 import skimage
 from feature_extractor.feature_extractor import FeatureExtractor
 from tqdm import tqdm
 
-data_dir = '/home/cheer/Project/Workflow/data'
-ck_path = '/home/cheer/Project/ActionNet/models/action_vgg_e/0/jp/model.ckpt-10000'
+data_dir = '/content/Seehow/Test_Dataset'
+ck_path = '/content/drive/MyDrive/IIT/model.ckpt-10'
 
 nums = 19
 batch_size = 1
 net_name = 'action_vgg_e'
-input_mode = 2
+input_mode = 0
 output_mode = 0
 
 def classification_placeholder_input(feature_extractor, image_a, image_b, logits_name, batch_size, num_classes):
