@@ -90,7 +90,7 @@ def get_network_fn(name, input_mode, output_mode, num_classes, weight_decay=0.0,
   def network_fn(image_a, image_b, **kwargs):
     arg_scope = arg_scopes_map[name](weight_decay=weight_decay)
     with slim.arg_scope(arg_scope):
-      return func(image_a, image_b, input_mode, output_mode, num_classes, is_training=is_training, **kwargs)
+      return func(image_a, image_b, input_mode, output_mode, num_classes, **kwargs)
   if hasattr(func, 'default_image_size'):
     network_fn.default_image_size = func.default_image_size
 
