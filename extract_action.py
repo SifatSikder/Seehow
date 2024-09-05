@@ -12,7 +12,7 @@ ck_path = '/content/drive/MyDrive/IIT/model.ckpt-10'
 
 nums = 19
 batch_size = 1
-net_name = 'action_vgg_e'
+net_name = 'inception_v2'
 input_mode = 0
 output_mode = 0
 
