@@ -1,7 +1,6 @@
 import numpy as np
 import os
 import sys
-import re
 sys.path.append('/content/Seehow/lib')
 import skimage
 from feature_extractor.feature_extractor import FeatureExtractor
@@ -12,7 +11,7 @@ ck_path = '/content/drive/MyDrive/IIT/model.ckpt-10'
 
 nums = 19
 batch_size = 1
-net_name = 'inception_v2'
+net_name = 'inception_resnet_v2'
 input_mode = 0
 output_mode = 0
 
