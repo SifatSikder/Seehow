@@ -2,21 +2,18 @@ import os
 import json
 import bbox
 import numpy as np
-from tqdm import tqdm
 from transformers import BertTokenizer, BertForNextSentencePrediction
 import torch
 import difflib
-import re
 
 playlist_list = ['2', '5']
-data_dir = '/home/cheer/Project/Workflow/data'
+data_dir = '/content/Seehow/Test_Dataset'
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertForNextSentencePrediction.from_pretrained('bert-base-uncased')
 model.to('cuda')
 S_LEN = 128
 label_dict = {'0':'others', '6':'enter_text', '7':'enter_text_popup_a', '8':'enter_text_popup_d', '9':'delete', '10':'popup', '11':'select', '12':'deselect', '13':'scroll', '14':'switch', '15':'enter'}
-
 
 def compute_action_overlap(y1, y2, y3, y4):
   if y3 > y2 or y1 > y4:
@@ -79,7 +76,7 @@ def compute_next_sentence(s1, s2):
       segments_tensors = torch.tensor([segments_ids]).to('cuda')
       outputs = model(input_ids, token_type_ids=segments_tensors)
       seq_relationship_scores = outputs[0]
-      scores.append(seq_relationship_scores[0][0])
+      scores.append(seq_relationship_scores[0][0].detach().cpu())
   scores = np.array(scores, dtype = float)
   return np.mean(scores)
 
@@ -172,23 +169,37 @@ def action_annotation_caption_reader (folder):
     captions = caption_file.readlines()
   return actions, annotations, captions
 
+def save_to_file(folder, clips, output_dir='/content/output', filename='video_data.json'):
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    data_list = []
+    for i, clip in enumerate(clips):
+        fragment = ','.join(list(map(str, clip['frame'])))
+        key_frame = '{:05},{:05}'.format(clip['key_frame'][0] + 1, clip['key_frame'][1] + 1)
+        data = {
+            'Name': folder,
+            'Caption': clip['caption'],
+            'Step': i + 1,
+            'Frame': key_frame,
+            'Fragment': fragment,
+            'Code': clip.get('code', ''),
+            'Action': clip.get('action', ''),
+            'Parent': clip.get('parent', '')
+        }
+        data_list.append(data)
+    
+    output_path = os.path.join(output_dir, filename)
+    with open(output_path, 'w') as f:
+        json.dump(data_list, f, indent=4)
+    print(f"Data saved to {output_path}")
+
 def main():
-  # folder_list = []
-  # folder_list_all = os.listdir(os.path.join(data_dir, 'OCR'))
-  # for folder in folder_list_all:
-  #   for playlist in playlist_list:
-  #     if re.search(r'^' + playlist + '_\d+', folder):
-  #       folder_list.append(folder)
-  # for folder in tqdm(folder_list):
   folder = '8_2'  
   actions, annotations, captions = action_annotation_caption_reader(folder)
   clips = compute_clip(folder, actions, annotations, captions)
   clips = merge_caption(clips, captions)
   clips = group_clip(clips)
-
-  for i in range(len(clips)):
-    fragment = ','.join(list(map(lambda x: str(x), clips[i]['frame'])))
-    key_frame = '{:05},{:05}'.format(clips[i]['key_frame'][0] + 1, clips[i]['key_frame'][1] + 1)
+  save_to_file(folder, clips)
 
 if __name__ == '__main__':
   main()
