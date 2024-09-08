@@ -1,0 +1,94 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "package com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 7.0,
+        "y_min": 17.0,
+        "x_max": 615.0,
+        "y_max": 52.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "importandroid.app.Activity;",
+      "vertice": {
+        "x_min": 11.0,
+        "y_min": 98.0,
+        "x_max": 536.0,
+        "y_max": 131.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "import android.os.Bundle;",
+      "vertice": {
+        "x_min": 12.0,
+        "y_min": 139.0,
+        "x_max": 481.0,
+        "y_max": 172.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "public class Splash extends Activity[",
+      "vertice": {
+        "x_min": 12.0,
+        "y_min": 221.0,
+        "x_max": 712.0,
+        "y_max": 253.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "@Override",
+      "vertice": {
+        "x_min": 85.0,
+        "y_min": 302.0,
+        "x_max": 257.0,
+        "y_max": 334.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "protected void onCreate(Bundle savedInstanceState)[",
+      "vertice": {
+        "x_min": 83.0,
+        "y_min": 343.0,
+        "x_max": 1076.0,
+        "y_max": 376.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "// Tooo Auto-generated method stub",
+      "vertice": {
+        "x_min": 160.0,
+        "y_min": 385.0,
+        "x_max": 807.0,
+        "y_max": 416.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "super.onCreate(savedInstanceState);",
+      "vertice": {
+        "x_min": 163.0,
+        "y_min": 425.0,
+        "x_max": 821.0,
+        "y_max": 458.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "7",
+      "vertice": {
+        "x_min": 7.0,
+        "y_min": 548.0,
+        "x_max": 28.0,
+        "y_max": 578.0
+      }
+    }
+  ]
+}

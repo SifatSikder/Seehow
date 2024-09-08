@@ -1,0 +1,194 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "package com.thenewboston.",
+      "vertice": {
+        "x_min": 688.0,
+        "y_min": 3.0,
+        "x_max": 1264.0,
+        "y_max": 33.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "New Boston",
+      "vertice": {
+        "x_min": 3.0,
+        "y_min": 77.0,
+        "x_max": 208.0,
+        "y_max": 113.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "importandroid.app.Activi",
+      "vertice": {
+        "x_min": 689.0,
+        "y_min": 94.0,
+        "x_max": 1268.0,
+        "y_max": 128.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "C",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 138.0,
+        "x_max": 31.0,
+        "y_max": 169.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "import android.os.Bundle;",
+      "vertice": {
+        "x_min": 693.0,
+        "y_min": 144.0,
+        "x_max": 1265.0,
+        "y_max": 180.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "com.thenewboston.travis",
+      "vertice": {
+        "x_min": 24.0,
+        "y_min": 193.0,
+        "x_max": 472.0,
+        "y_max": 224.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "Splash.java",
+      "vertice": {
+        "x_min": 79.0,
+        "y_min": 248.0,
+        "x_max": 277.0,
+        "y_max": 285.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "public class Splash exten",
+      "vertice": {
+        "x_min": 689.0,
+        "y_min": 242.0,
+        "x_max": 1276.0,
+        "y_max": 281.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "startingRoint.java",
+      "vertice": {
+        "x_min": 79.0,
+        "y_min": 306.0,
+        "x_max": 389.0,
+        "y_max": 339.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "@Override",
+      "vertice": {
+        "x_min": 781.0,
+        "y_min": 343.0,
+        "x_max": 991.0,
+        "y_max": 379.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "en[GeneratedIava Flles]d",
+      "vertice": {
+        "x_min": 5.0,
+        "y_min": 363.0,
+        "x_max": 431.0,
+        "y_max": 394.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "protected void onCrea",
+      "vertice": {
+        "x_min": 783.0,
+        "y_min": 396.0,
+        "x_max": 1271.0,
+        "y_max": 427.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "f.com.thenewboston.travis",
+      "vertice": {
+        "x_min": 8.0,
+        "y_min": 420.0,
+        "x_max": 472.0,
+        "y_max": 450.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "//ToDo Auto-gene",
+      "vertice": {
+        "x_min": 875.0,
+        "y_min": 441.0,
+        "x_max": 1270.0,
+        "y_max": 483.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "ndroid2.2",
+      "vertice": {
+        "x_min": 4.0,
+        "y_min": 475.0,
+        "x_max": 185.0,
+        "y_max": 507.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "super.onCreate(sa",
+      "vertice": {
+        "x_min": 877.0,
+        "y_min": 495.0,
+        "x_max": 1271.0,
+        "y_max": 531.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "ssets",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 533.0,
+        "x_max": 88.0,
+        "y_max": 566.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "es",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 592.0,
+        "x_max": 31.0,
+        "y_max": 623.0
+      }
+    },
+    {
+      "id": 18,
+      "text": "drawable-hdpi",
+      "vertice": {
+        "x_min": 26.0,
+        "y_min": 642.0,
+        "x_max": 288.0,
+        "y_max": 682.0
+      }
+    }
+  ]
+}

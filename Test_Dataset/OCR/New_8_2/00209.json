@@ -1,0 +1,184 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "TheNew Boston",
+      "vertice": {
+        "x_min": 147.0,
+        "y_min": 44.0,
+        "x_max": 448.0,
+        "y_max": 78.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "import andro",
+      "vertice": {
+        "x_min": 965.0,
+        "y_min": 62.0,
+        "x_max": 1272.0,
+        "y_max": 97.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "src",
+      "vertice": {
+        "x_min": 199.0,
+        "y_min": 105.0,
+        "x_max": 260.0,
+        "y_max": 142.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "import androi",
+      "vertice": {
+        "x_min": 968.0,
+        "y_min": 114.0,
+        "x_max": 1275.0,
+        "y_max": 154.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "com.thenewboston.travis",
+      "vertice": {
+        "x_min": 251.0,
+        "y_min": 166.0,
+        "x_max": 733.0,
+        "y_max": 198.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "Splash.java",
+      "vertice": {
+        "x_min": 316.0,
+        "y_min": 226.0,
+        "x_max": 524.0,
+        "y_max": 263.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "public class",
+      "vertice": {
+        "x_min": 965.0,
+        "y_min": 221.0,
+        "x_max": 1263.0,
+        "y_max": 261.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 317.0,
+        "y_min": 290.0,
+        "x_max": 644.0,
+        "y_max": 322.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "eoverride",
+      "vertice": {
+        "x_min": 1065.0,
+        "y_min": 328.0,
+        "x_max": 1277.0,
+        "y_max": 364.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "qen [GeneratedlavaFiles]",
+      "vertice": {
+        "x_min": 204.0,
+        "y_min": 349.0,
+        "x_max": 688.0,
+        "y_max": 381.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "protectec",
+      "vertice": {
+        "x_min": 1064.0,
+        "y_min": 385.0,
+        "x_max": 1279.0,
+        "y_max": 422.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "Icom.thenewboston.travis",
+      "vertice": {
+        "x_min": 231.0,
+        "y_min": 410.0,
+        "x_max": 733.0,
+        "y_max": 442.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "/TO",
+      "vertice": {
+        "x_min": 1160.0,
+        "y_min": 428.0,
+        "x_max": 1279.0,
+        "y_max": 475.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "Android2.2",
+      "vertice": {
+        "x_min": 200.0,
+        "y_min": 469.0,
+        "x_max": 425.0,
+        "y_max": 504.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "super",
+      "vertice": {
+        "x_min": 1164.0,
+        "y_min": 492.0,
+        "x_max": 1279.0,
+        "y_max": 531.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "assets",
+      "vertice": {
+        "x_min": 200.0,
+        "y_min": 533.0,
+        "x_max": 320.0,
+        "y_max": 565.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "res",
+      "vertice": {
+        "x_min": 196.0,
+        "y_min": 593.0,
+        "x_max": 261.0,
+        "y_max": 627.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "drawable-hdpi",
+      "vertice": {
+        "x_min": 257.0,
+        "y_min": 651.0,
+        "x_max": 537.0,
+        "y_max": 687.0
+      }
+    }
+  ]
+}

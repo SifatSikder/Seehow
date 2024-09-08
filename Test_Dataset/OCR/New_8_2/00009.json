@@ -1,0 +1,174 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "The New Boston",
+      "vertice": {
+        "x_min": 33.0,
+        "y_min": 73.0,
+        "x_max": 287.0,
+        "y_max": 99.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Csrc",
+      "vertice": {
+        "x_min": 93.0,
+        "y_min": 108.0,
+        "x_max": 168.0,
+        "y_max": 139.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "com.thenewboston.travis",
+      "vertice": {
+        "x_min": 128.0,
+        "y_min": 151.0,
+        "x_max": 464.0,
+        "y_max": 173.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "7JstartingPoint.java",
+      "vertice": {
+        "x_min": 139.0,
+        "y_min": 187.0,
+        "x_max": 409.0,
+        "y_max": 214.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "gen [Generated Java Files]",
+      "vertice": {
+        "x_min": 91.0,
+        "y_min": 220.0,
+        "x_max": 438.0,
+        "y_max": 257.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "com.thenewboston.travis",
+      "vertice": {
+        "x_min": 101.0,
+        "y_min": 263.0,
+        "x_max": 467.0,
+        "y_max": 290.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "Android2.2",
+      "vertice": {
+        "x_min": 68.0,
+        "y_min": 300.0,
+        "x_max": 272.0,
+        "y_max": 327.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "assets",
+      "vertice": {
+        "x_min": 92.0,
+        "y_min": 329.0,
+        "x_max": 205.0,
+        "y_max": 371.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "3res",
+      "vertice": {
+        "x_min": 105.0,
+        "y_min": 377.0,
+        "x_max": 168.0,
+        "y_max": 402.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "drawable-hdpi",
+      "vertice": {
+        "x_min": 125.0,
+        "y_min": 414.0,
+        "x_max": 341.0,
+        "y_max": 441.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "18icon.png",
+      "vertice": {
+        "x_min": 166.0,
+        "y_min": 447.0,
+        "x_max": 308.0,
+        "y_max": 482.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "tsplash_background.png",
+      "vertice": {
+        "x_min": 167.0,
+        "y_min": 486.0,
+        "x_max": 484.0,
+        "y_max": 519.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "drawable-Idpi",
+      "vertice": {
+        "x_min": 124.0,
+        "y_min": 528.0,
+        "x_max": 333.0,
+        "y_max": 555.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "drawable-mdpi",
+      "vertice": {
+        "x_min": 127.0,
+        "y_min": 568.0,
+        "x_max": 349.0,
+        "y_max": 590.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "layout",
+      "vertice": {
+        "x_min": 163.0,
+        "y_min": 604.0,
+        "x_max": 244.0,
+        "y_max": 631.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "xmain.xml",
+      "vertice": {
+        "x_min": 171.0,
+        "y_min": 641.0,
+        "x_max": 315.0,
+        "y_max": 668.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "Xsplash.xml",
+      "vertice": {
+        "x_min": 168.0,
+        "y_min": 677.0,
+        "x_max": 335.0,
+        "y_max": 704.0
+      }
+    }
+  ]
+}

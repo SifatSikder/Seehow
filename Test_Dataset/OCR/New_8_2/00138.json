@@ -1,0 +1,314 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "QuickFix",
+      "vertice": {
+        "x_min": 19.0,
+        "y_min": 29.0,
+        "x_max": 165.0,
+        "y_max": 62.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "961",
+      "vertice": {
+        "x_min": 680.0,
+        "y_min": 26.0,
+        "x_max": 739.0,
+        "y_max": 64.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "Source",
+      "vertice": {
+        "x_min": 16.0,
+        "y_min": 75.0,
+        "x_max": 125.0,
+        "y_max": 107.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "596",
+      "vertice": {
+        "x_min": 557.0,
+        "y_min": 73.0,
+        "x_max": 643.0,
+        "y_max": 107.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Toggle Comment",
+      "vertice": {
+        "x_min": 817.0,
+        "y_min": 76.0,
+        "x_max": 1092.0,
+        "y_max": 104.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "Refactor",
+      "vertice": {
+        "x_min": 17.0,
+        "y_min": 118.0,
+        "x_max": 151.0,
+        "y_max": 151.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "T9T",
+      "vertice": {
+        "x_min": 556.0,
+        "y_min": 115.0,
+        "x_max": 648.0,
+        "y_max": 154.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "Remove Block Comment",
+      "vertice": {
+        "x_min": 819.0,
+        "y_min": 119.0,
+        "x_max": 1203.0,
+        "y_max": 150.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "Local History",
+      "vertice": {
+        "x_min": 15.0,
+        "y_min": 159.0,
+        "x_max": 224.0,
+        "y_max": 199.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "Generate Element Comment",
+      "vertice": {
+        "x_min": 817.0,
+        "y_min": 161.0,
+        "x_max": 1263.0,
+        "y_max": 195.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "References",
+      "vertice": {
+        "x_min": 18.0,
+        "y_min": 233.0,
+        "x_max": 190.0,
+        "y_max": 268.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "Correct Indentation",
+      "vertice": {
+        "x_min": 820.0,
+        "y_min": 237.0,
+        "x_max": 1121.0,
+        "y_max": 265.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Declarations",
+      "vertice": {
+        "x_min": 18.0,
+        "y_min": 278.0,
+        "x_max": 213.0,
+        "y_max": 314.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "P",
+      "vertice": {
+        "x_min": 723.0,
+        "y_min": 286.0,
+        "x_max": 740.0,
+        "y_max": 307.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Format",
+      "vertice": {
+        "x_min": 816.0,
+        "y_min": 279.0,
+        "x_max": 932.0,
+        "y_max": 312.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "Add to Snippets..",
+      "vertice": {
+        "x_min": 24.0,
+        "y_min": 356.0,
+        "x_max": 344.0,
+        "y_max": 388.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "Add Import",
+      "vertice": {
+        "x_min": 816.0,
+        "y_min": 351.0,
+        "x_max": 998.0,
+        "y_max": 387.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "Organize Imports",
+      "vertice": {
+        "x_min": 816.0,
+        "y_min": 394.0,
+        "x_max": 1093.0,
+        "y_max": 433.0
+      }
+    },
+    {
+      "id": 18,
+      "text": "RunAs",
+      "vertice": {
+        "x_min": 16.0,
+        "y_min": 426.0,
+        "x_max": 129.0,
+        "y_max": 463.0
+      }
+    },
+    {
+      "id": 19,
+      "text": "Sort Members....",
+      "vertice": {
+        "x_min": 815.0,
+        "y_min": 439.0,
+        "x_max": 1065.0,
+        "y_max": 474.0
+      }
+    },
+    {
+      "id": 20,
+      "text": "DebugAs",
+      "vertice": {
+        "x_min": 15.0,
+        "y_min": 470.0,
+        "x_max": 170.0,
+        "y_max": 511.0
+      }
+    },
+    {
+      "id": 21,
+      "text": "Clean Up...",
+      "vertice": {
+        "x_min": 815.0,
+        "y_min": 481.0,
+        "x_max": 991.0,
+        "y_max": 523.0
+      }
+    },
+    {
+      "id": 22,
+      "text": "Validate",
+      "vertice": {
+        "x_min": 16.0,
+        "y_min": 518.0,
+        "x_max": 145.0,
+        "y_max": 551.0
+      }
+    },
+    {
+      "id": 23,
+      "text": "Team",
+      "vertice": {
+        "x_min": 15.0,
+        "y_min": 561.0,
+        "x_max": 107.0,
+        "y_max": 596.0
+      }
+    },
+    {
+      "id": 24,
+      "text": "OverrideNmplement Method",
+      "vertice": {
+        "x_min": 819.0,
+        "y_min": 560.0,
+        "x_max": 1275.0,
+        "y_max": 592.0
+      }
+    },
+    {
+      "id": 25,
+      "text": "CompareWith",
+      "vertice": {
+        "x_min": 19.0,
+        "y_min": 608.0,
+        "x_max": 239.0,
+        "y_max": 639.0
+      }
+    },
+    {
+      "id": 26,
+      "text": "GenerateGetters and Setters",
+      "vertice": {
+        "x_min": 817.0,
+        "y_min": 602.0,
+        "x_max": 1273.0,
+        "y_max": 635.0
+      }
+    },
+    {
+      "id": 27,
+      "text": "ReplaceWith",
+      "vertice": {
+        "x_min": 17.0,
+        "y_min": 650.0,
+        "x_max": 220.0,
+        "y_max": 686.0
+      }
+    },
+    {
+      "id": 28,
+      "text": "Generate Delegate Methods.",
+      "vertice": {
+        "x_min": 819.0,
+        "y_min": 647.0,
+        "x_max": 1272.0,
+        "y_max": 679.0
+      }
+    },
+    {
+      "id": 29,
+      "text": "Wikitext",
+      "vertice": {
+        "x_min": 17.0,
+        "y_min": 695.0,
+        "x_max": 157.0,
+        "y_max": 719.0
+      }
+    },
+    {
+      "id": 30,
+      "text": "Cenerate hashcode0 and eg",
+      "vertice": {
+        "x_min": 819.0,
+        "y_min": 691.0,
+        "x_max": 1272.0,
+        "y_max": 717.0
+      }
+    }
+  ]
+}

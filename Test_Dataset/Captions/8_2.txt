@@ -1,0 +1,66 @@
+0 4 what's up guys welcome to your 12th Android tutorial what we're gonna do in
+4 13 this tutorial set up our own activity from scratch home made Java is what
+13 16 we're going to be doing we're going to set up a java class so we're gonna go up
+16 21 to our source folder and right-click and go to new either
+21 26 I'm sorry new class right here hit OK and we're going to call this
+26 32 splash with the capital S and again I should guys should just tell you this
+32 36 because since we're working with Java it's basically good grammar for your
+36 40 class names to start with the uppercase letter I didn't do that with the
+40 44 starting point that other other class that we have called starting point but
+44 50 general rule of thumb you want to have it uppercase not a huge deal but you
+50 54 know whatever and then we're going to hit finish got our class started and now
+54 58 as we we're just also going to open our starting point class as a reference you
+58 64 guys can kind of see what we need to set up here now right now it's just a Java
+64 69 class it's not an activity and Android uses activities they're basically like
+69 75 different tabs for example this is a tab and this is a tab think of this is an
+75 80 activity for the most part and then we can open up this activity and it will
+80 83 put that previous activity behind it and then if we hit the back button on our
+83 87 phone it opens this activity I don't know if that made sense but they're
+87 90 basically like different windows or different tabs that's what an activity
+90 94 is so we want our splash to be an activity so what we're going to say is
+94 102 extends activity and what extends means is that we're extending the activity
+102 106 class so we have to import this activity class which comes from the Android app
+106 111 package again from the SDK for the most part so we're going to import that and
+111 117 what extends means is we're since we're using or extending this activity class
+117 122 we can use some of the methods from within that activity class now let's go
+122 125 back to the starting point and we notice that we have this method called oncreate
+125 128 so we're going to add that real quickly so we're going to add that real quickly
+128 134 by right-clicking within the brackets going down to the source and then going
+134 141 to override implement methods click that as you can see here's our activity class
+141 145 that we're extending and we can use all these methods from within that activity
+145 150 class there's a method called oncreate which you guys saw in our starting point
+150 154 activity so we're going to click this and make sure it's the one that takes in
+154 160 but takes a bundle within its parameters click OK and we have our activity for
+160 166 the most part set up at least our oncreate method set up and now basically
+166 168 I kind of want to quickly talk on the I kind of want to quickly talk on the
+168 172 Java just kind of give you guys a little bit better understanding of what's going
+172 177 on public just think of that meaning that it's accessible by other classes or
+177 181 other yeah for the most part other classes if it's private for the most
+181 186 part won't be being able to be accessed by those other classes and again we're
+186 192 setting up a class again that might be confusing word for new Java programmers
+192 198 but basically a class defines certain things I'll get into that explanation
+198 202 later as we go just know that this is a class what we're setting up all these
+202 207 are classes over here under our package and we're extending the activity class
+207 212 so we can use this method called oncreate now anytime you guys see void
+212 216 that basically means that it's going to be a method we're using a method so when
+216 221 you see void just think of a method for the most part and this method is called
+221 227 oncreate and what it takes within its parameters is a bundle so this is just
+227 230 like a variable we set up so we could change this bundle to something like
+230 239 Travis loves bacon again we're just renaming the variable and then we're
+239 244 sending that variable to the superclass for the most part and giving some giving
+244 251 it some data so we need to change a variable down here - Travis love bacon I
+251 256 guess it's supposed to be Travis loves bacon but it's just Travis love bacon
+256 261 that's my middle name and my last name love bacon but uh there we go so
+261 264 basically we're sending this bundle into our super
+264 268 class you guys don't really need to worry about what super is since again it
+268 273 sets it up for you but as you guys get into Java you'll realize what that is
+273 277 actually doing it's using the method oncreate I just don't worry about that
+277 281 okay now the other thing that we want to do for this activity is set up the
+281 286 content view this is how we're going to let this activity have the background of
+286 291 our layout that we just set up called splash so to do that we use the method
+291 298 called set content view and within the parameters we're going to resource or
+298 308 reference that splash layout by going r dot layout dot splash and then we just
+308 313 need our semicolon and we're good to go basically our activity will load up that
+313 320 new splash and I'll show you guys how we can basically uh well just watch the
+320 323 next tutorial where we're going to get into the Android manifest again thanks
+323 326 guys for watching hope you have a good one hope that someone made sense and

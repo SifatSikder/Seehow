@@ -1,0 +1,184 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "SpiesndavaX",
+      "vertice": {
+        "x_min": 283.0,
+        "y_min": 1.0,
+        "x_max": 428.0,
+        "y_max": 15.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "package com.thenewboston.travis,",
+      "vertice": {
+        "x_min": 301.0,
+        "y_min": 26.0,
+        "x_max": 713.0,
+        "y_max": 54.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "public class Splash{",
+      "vertice": {
+        "x_min": 301.0,
+        "y_min": 82.0,
+        "x_max": 575.0,
+        "y_max": 109.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "nenewboston.travis",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 140.0,
+        "x_max": 187.0,
+        "y_max": 159.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "ash.java",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 169.0,
+        "x_max": 80.0,
+        "y_max": 193.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "rtingPoint.java",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 200.0,
+        "x_max": 141.0,
+        "y_max": 222.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "erated javaFiles",
+      "vertice": {
+        "x_min": 3.0,
+        "y_min": 233.0,
+        "x_max": 163.0,
+        "y_max": 251.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "nenewboston.travis.",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 261.0,
+        "x_max": 188.0,
+        "y_max": 285.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "2.2",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 291.0,
+        "x_max": 29.0,
+        "y_max": 315.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "ble-hdpi",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 381.0,
+        "x_max": 86.0,
+        "y_max": 413.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "n.png",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 415.0,
+        "x_max": 56.0,
+        "y_max": 444.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "ash_background.png",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 447.0,
+        "x_max": 203.0,
+        "y_max": 473.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "ble-ldpi",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 476.0,
+        "x_max": 79.0,
+        "y_max": 503.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "ble-mdpi",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 508.0,
+        "x_max": 93.0,
+        "y_max": 535.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "in.xml",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 572.0,
+        "x_max": 65.0,
+        "y_max": 596.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "ash.xml",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 601.0,
+        "x_max": 78.0,
+        "y_max": 629.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "-land",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 634.0,
+        "x_max": 57.0,
+        "y_max": 658.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "ashsound.mp3",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 696.0,
+        "x_max": 145.0,
+        "y_max": 719.0
+      }
+    }
+  ]
+}

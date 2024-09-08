@@ -1,0 +1,134 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "*Splash.java X",
+      "vertice": {
+        "x_min": 45.0,
+        "y_min": 16.0,
+        "x_max": 300.0,
+        "y_max": 49.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 431.0,
+        "y_min": 20.0,
+        "x_max": 701.0,
+        "y_max": 48.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "package com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 83.0,
+        "y_min": 77.0,
+        "x_max": 741.0,
+        "y_max": 111.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "public class Splash extends Activity",
+      "vertice": {
+        "x_min": 85.0,
+        "y_min": 161.0,
+        "x_max": 847.0,
+        "y_max": 201.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Activity cannot be resoived to a typ",
+      "vertice": {
+        "x_min": 685.0,
+        "y_min": 232.0,
+        "x_max": 1273.0,
+        "y_max": 263.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "9quick fixes available",
+      "vertice": {
+        "x_min": 683.0,
+        "y_min": 295.0,
+        "x_max": 1039.0,
+        "y_max": 326.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "import'Activity' (android.app)",
+      "vertice": {
+        "x_min": 761.0,
+        "y_min": 357.0,
+        "x_max": 1229.0,
+        "y_max": 390.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "Create class'Activity",
+      "vertice": {
+        "x_min": 762.0,
+        "y_min": 406.0,
+        "x_max": 1089.0,
+        "y_max": 442.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "Change to'ActivityGroup (andro",
+      "vertice": {
+        "x_min": 763.0,
+        "y_min": 463.0,
+        "x_max": 1273.0,
+        "y_max": 494.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "Change to'Activityinfo (android.",
+      "vertice": {
+        "x_min": 765.0,
+        "y_min": 519.0,
+        "x_max": 1273.0,
+        "y_max": 545.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "Change to'ActivityManaqer fand",
+      "vertice": {
+        "x_min": 764.0,
+        "y_min": 570.0,
+        "x_max": 1275.0,
+        "y_max": 600.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "Change to'ActivityMonitor' (andr",
+      "vertice": {
+        "x_min": 763.0,
+        "y_min": 625.0,
+        "x_max": 1275.0,
+        "y_max": 651.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Change to'ActivityTestCase' (an",
+      "vertice": {
+        "x_min": 761.0,
+        "y_min": 676.0,
+        "x_max": 1276.0,
+        "y_max": 707.0
+      }
+    }
+  ]
+}

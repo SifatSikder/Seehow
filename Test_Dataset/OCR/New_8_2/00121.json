@@ -1,0 +1,54 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "*Splash.javaX",
+      "vertice": {
+        "x_min": 50.0,
+        "y_min": 16.0,
+        "x_max": 300.0,
+        "y_max": 47.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 428.0,
+        "y_min": 16.0,
+        "x_max": 704.0,
+        "y_max": 50.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "package com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 84.0,
+        "y_min": 77.0,
+        "x_max": 741.0,
+        "y_max": 111.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "import android.app.Activity",
+      "vertice": {
+        "x_min": 87.0,
+        "y_min": 161.0,
+        "x_max": 657.0,
+        "y_max": 201.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "public class Splash extends Activity",
+      "vertice": {
+        "x_min": 83.0,
+        "y_min": 248.0,
+        "x_max": 849.0,
+        "y_max": 286.0
+      }
+    }
+  ]
+}

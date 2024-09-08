@@ -1,0 +1,154 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "*Splash.javaX",
+      "vertice": {
+        "x_min": 25.0,
+        "y_min": 17.0,
+        "x_max": 255.0,
+        "y_max": 45.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 368.0,
+        "y_min": 14.0,
+        "x_max": 628.0,
+        "y_max": 49.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "package com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 55.0,
+        "y_min": 70.0,
+        "x_max": 665.0,
+        "y_max": 105.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "Bimport android.app.Activity",
+      "vertice": {
+        "x_min": 23.0,
+        "y_min": 151.0,
+        "x_max": 584.0,
+        "y_max": 185.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "import android.os.Bundle;",
+      "vertice": {
+        "x_min": 56.0,
+        "y_min": 193.0,
+        "x_max": 529.0,
+        "y_max": 226.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "public class Splash extends Activity[",
+      "vertice": {
+        "x_min": 57.0,
+        "y_min": 275.0,
+        "x_max": 761.0,
+        "y_max": 307.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "@Override",
+      "vertice": {
+        "x_min": 133.0,
+        "y_min": 356.0,
+        "x_max": 304.0,
+        "y_max": 388.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "protected void onCreate(Bundle TravisLoveBacon)",
+      "vertice": {
+        "x_min": 131.0,
+        "y_min": 397.0,
+        "x_max": 1071.0,
+        "y_max": 430.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "// Tooo Auto-generated method stub",
+      "vertice": {
+        "x_min": 208.0,
+        "y_min": 439.0,
+        "x_max": 857.0,
+        "y_max": 470.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "super.onCreate(TravisLoveBacon);",
+      "vertice": {
+        "x_min": 211.0,
+        "y_min": 482.0,
+        "x_max": 815.0,
+        "y_max": 512.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "setContentView(R..ayout.)",
+      "vertice": {
+        "x_min": 211.0,
+        "y_min": 523.0,
+        "x_max": 689.0,
+        "y_max": 553.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "}",
+      "vertice": {
+        "x_min": 124.0,
+        "y_min": 559.0,
+        "x_max": 156.0,
+        "y_max": 600.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "oSmain:int R.layout",
+      "vertice": {
+        "x_min": 690.0,
+        "y_min": 558.0,
+        "x_max": 1019.0,
+        "y_max": 601.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "Ssplash:int-R.layout",
+      "vertice": {
+        "x_min": 699.0,
+        "y_min": 607.0,
+        "x_max": 1040.0,
+        "y_max": 646.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "oSclass:Class<com.thenewboston.travi",
+      "vertice": {
+        "x_min": 687.0,
+        "y_min": 650.0,
+        "x_max": 1277.0,
+        "y_max": 694.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "Select methods to override orimplement",
+      "vertice": {
+        "x_min": 44.0,
+        "y_min": 36.0,
+        "x_max": 580.0,
+        "y_max": 61.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Select All",
+      "vertice": {
+        "x_min": 1072.0,
+        "y_min": 40.0,
+        "x_max": 1195.0,
+        "y_max": 68.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "onContextMenuClosed(Menu)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 87.0,
+        "x_max": 613.0,
+        "y_max": 110.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "onCreate(Bundle)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 127.0,
+        "x_max": 452.0,
+        "y_max": 154.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Deselect All",
+      "vertice": {
+        "x_min": 1057.0,
+        "y_min": 127.0,
+        "x_max": 1211.0,
+        "y_max": 154.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "onCreateContextMenu(ContextMenu,View,ContextMen",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 168.0,
+        "x_max": 959.0,
+        "y_max": 195.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "onCreateDescriptionO",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 210.0,
+        "x_max": 513.0,
+        "y_max": 237.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "onCreateDialogtint.Bundle.",
+      "vertice": {
+        "x_min": 231.0,
+        "y_min": 254.0,
+        "x_max": 585.0,
+        "y_max": 277.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "onCreateDialog(int)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 294.0,
+        "x_max": 483.0,
+        "y_max": 320.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "onCreateOptionsMenu(Menu)",
+      "vertice": {
+        "x_min": 231.0,
+        "y_min": 338.0,
+        "x_max": 608.0,
+        "y_max": 360.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "onCreatePanelMenu(int,Menu)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 377.0,
+        "x_max": 628.0,
+        "y_max": 404.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "onCreatePanelView(int)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 418.0,
+        "x_max": 528.0,
+        "y_max": 445.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Insertion point",
+      "vertice": {
+        "x_min": 36.0,
+        "y_min": 523.0,
+        "x_max": 236.0,
+        "y_max": 551.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "First member",
+      "vertice": {
+        "x_min": 57.0,
+        "y_min": 577.0,
+        "x_max": 235.0,
+        "y_max": 604.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Generate method comments",
+      "vertice": {
+        "x_min": 77.0,
+        "y_min": 646.0,
+        "x_max": 452.0,
+        "y_max": 672.0
+      }
+    }
+  ]
+}

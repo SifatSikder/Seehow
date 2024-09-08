@@ -5,30 +5,18 @@ import numpy as np
 from tqdm import tqdm
 from transformers import BertTokenizer, BertForNextSentencePrediction
 import torch
-# import pymysql
 import difflib
 import re
 
 playlist_list = ['2', '5']
 data_dir = '/home/cheer/Project/Workflow/data'
-
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertForNextSentencePrediction.from_pretrained('bert-base-uncased')
 model.to('cuda')
 S_LEN = 128
-
 label_dict = {'0':'others', '6':'enter_text', '7':'enter_text_popup_a', '8':'enter_text_popup_d', '9':'delete', '10':'popup', '11':'select', '12':'deselect', '13':'scroll', '14':'switch', '15':'enter'}
 
-# config = {
-#   'host': '172.17.0.2',
-#   'port': 3306,
-#   'user': 'root',
-#   'passwd':'123',
-#   'db': 'workflow',
-#   'charset': 'utf8',
-#   'cursorclass': pymysql.cursors.DictCursor
-# }
 
 def compute_action_overlap(y1, y2, y3, y4):
   if y3 > y2 or y1 > y4:
@@ -64,11 +52,6 @@ def rectify(i, captions):
   for caption in captions:
     if i in range(int(caption.split()[0]), int(caption.split()[1])):
       return int(caption.split()[0]), int(caption.split()[1])
-#  dist_i = []
-#  for caption in captions:
-#    dist_i.append(min([abs(int(caption.split()[0]) - i), abs(int(caption.split()[1]) - i)]))
-#  dist_min = np.argmin(dist_i)
-#  return int(captions[dist_min].split()[0]), int(captions[dist_min].split()[1])
 
 def merge_two(clip1, clip2):
   clip = {}
@@ -180,38 +163,32 @@ def compute_clip(folder, actions, annotations, captions):
   clips = find_clip(action_overlaps)
   return clips
 
+def action_annotation_caption_reader (folder):
+  with open(os.path.join(data_dir, 'Actions', folder + '.txt'), 'r') as action_file:
+    actions = action_file.readlines()
+  with open(os.path.join(data_dir, 'Annotations', folder + '.txt'), 'r') as annotation_file:
+    annotations = annotation_file.readlines()
+  with open(os.path.join(data_dir, 'Captions', folder + '.txt'), 'r') as caption_file:
+    captions = caption_file.readlines()
+  return actions, annotations, captions
+
 def main():
-  # connect = pymysql.connect(**config)
-  # cursor = connect.cursor()
-  #cursor.execute('DROP TABLE IF EXISTS video')
-  #cursor.execute('CREATE TABLE video (Id int primary key auto_increment, Name varchar(20), Step int, Frame varchar(100), Fragment varchar(100), Code varchar(200), Action varchar(20), Parent int, Caption text, Summary text)')
-  folder_list = []
-  folder_list_all = os.listdir(os.path.join(data_dir, 'OCR'))
-  for folder in folder_list_all:
-    for playlist in playlist_list:
-      if re.search(r'^' + playlist + '_\d+', folder):
-        folder_list.append(folder)
-  for folder in tqdm(folder_list):
-    print (folder)
-    with open(os.path.join(data_dir, 'Actions', folder + '.txt'), 'r') as action_file:
-      actions = action_file.readlines()
-    with open(os.path.join(data_dir, 'Annotations', folder + '.txt'), 'r') as annotation_file:
-      annotations = annotation_file.readlines()
-    with open(os.path.join(data_dir, 'Captions', folder + '.txt'), 'r') as caption_file:
-      captions = caption_file.readlines()
-    clips = compute_clip(folder, actions, annotations, captions)
-    clips = merge_caption(clips, captions)
-    clips = group_clip(clips)
+  # folder_list = []
+  # folder_list_all = os.listdir(os.path.join(data_dir, 'OCR'))
+  # for folder in folder_list_all:
+  #   for playlist in playlist_list:
+  #     if re.search(r'^' + playlist + '_\d+', folder):
+  #       folder_list.append(folder)
+  # for folder in tqdm(folder_list):
+  folder = '8_2'  
+  actions, annotations, captions = action_annotation_caption_reader(folder)
+  clips = compute_clip(folder, actions, annotations, captions)
+  clips = merge_caption(clips, captions)
+  clips = group_clip(clips)
 
-    for i in range(len(clips)):
-      fragment = ','.join(list(map(lambda x: str(x), clips[i]['frame'])))
-      key_frame = '{:05},{:05}'.format(clips[i]['key_frame'][0] + 1, clips[i]['key_frame'][1] + 1)
-      # cursor.execute('INSERT INTO video (Name, Caption, Step, Frame, Fragment, Code, Action, Parent) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)', (folder, clips[i]['caption'], i+1, key_frame, fragment, clips[i]['code'], clips[i]['action'], clips[i]['parent']))
-
-  # print (cursor.execute('SELECT * FROM video'))
-  # connect.commit()
-  # cursor.close()
-  # connect.close()
+  for i in range(len(clips)):
+    fragment = ','.join(list(map(lambda x: str(x), clips[i]['frame'])))
+    key_frame = '{:05},{:05}'.format(clips[i]['key_frame'][0] + 1, clips[i]['key_frame'][1] + 1)
 
 if __name__ == '__main__':
   main()

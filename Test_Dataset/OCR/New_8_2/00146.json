@@ -1,0 +1,154 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "Select methods to override or implement",
+      "vertice": {
+        "x_min": 44.0,
+        "y_min": 33.0,
+        "x_max": 580.0,
+        "y_max": 62.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "SelectAll",
+      "vertice": {
+        "x_min": 1072.0,
+        "y_min": 40.0,
+        "x_max": 1195.0,
+        "y_max": 68.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "getWindow()",
+      "vertice": {
+        "x_min": 226.0,
+        "y_min": 86.0,
+        "x_max": 390.0,
+        "y_max": 111.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "getWindowManagero",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 127.0,
+        "x_max": 500.0,
+        "y_max": 155.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Deselect All",
+      "vertice": {
+        "x_min": 1057.0,
+        "y_min": 127.0,
+        "x_max": 1212.0,
+        "y_max": 154.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "haswindowFocuso",
+      "vertice": {
+        "x_min": 227.0,
+        "y_min": 167.0,
+        "x_max": 467.0,
+        "y_max": 193.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "FFinishingo",
+      "vertice": {
+        "x_min": 227.0,
+        "y_min": 209.0,
+        "x_max": 387.0,
+        "y_max": 241.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "isTaskRooto",
+      "vertice": {
+        "x_min": 228.0,
+        "y_min": 251.0,
+        "x_max": 389.0,
+        "y_max": 279.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "moveTaskToBack(boolean)",
+      "vertice": {
+        "x_min": 228.0,
+        "y_min": 293.0,
+        "x_max": 575.0,
+        "y_max": 319.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "onActivityResult(int,int,ntent)",
+      "vertice": {
+        "x_min": 231.0,
+        "y_min": 338.0,
+        "x_max": 633.0,
+        "y_max": 360.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "onApplyThemeResource(Theme,int,boolean)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 377.0,
+        "x_max": 823.0,
+        "y_max": 404.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "onAttachedToWindowO",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 418.0,
+        "x_max": 531.0,
+        "y_max": 445.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Insertion polnt",
+      "vertice": {
+        "x_min": 36.0,
+        "y_min": 523.0,
+        "x_max": 236.0,
+        "y_max": 551.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "First member",
+      "vertice": {
+        "x_min": 57.0,
+        "y_min": 577.0,
+        "x_max": 236.0,
+        "y_max": 604.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Generate method comments",
+      "vertice": {
+        "x_min": 72.0,
+        "y_min": 646.0,
+        "x_max": 452.0,
+        "y_max": 672.0
+      }
+    }
+  ]
+}

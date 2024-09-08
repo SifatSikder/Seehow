@@ -1,0 +1,194 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "TheNew Boston",
+      "vertice": {
+        "x_min": 167.0,
+        "y_min": 13.0,
+        "x_max": 418.0,
+        "y_max": 44.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Enclosing t",
+      "vertice": {
+        "x_min": 1105.0,
+        "y_min": 37.0,
+        "x_max": 1276.0,
+        "y_max": 69.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "src",
+      "vertice": {
+        "x_min": 205.0,
+        "y_min": 64.0,
+        "x_max": 264.0,
+        "y_max": 94.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "com.thenewboston.travis",
+      "vertice": {
+        "x_min": 239.0,
+        "y_min": 114.0,
+        "x_max": 649.0,
+        "y_max": 140.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 305.0,
+        "y_min": 161.0,
+        "x_max": 577.0,
+        "y_max": 193.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "Name:",
+      "vertice": {
+        "x_min": 1054.0,
+        "y_min": 170.0,
+        "x_max": 1158.0,
+        "y_max": 207.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "gen [Geterated Java Files]",
+      "vertice": {
+        "x_min": 216.0,
+        "y_min": 210.0,
+        "x_max": 615.0,
+        "y_max": 241.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "Modifiers:",
+      "vertice": {
+        "x_min": 1055.0,
+        "y_min": 238.0,
+        "x_max": 1210.0,
+        "y_max": 274.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "com.thenewboston.travis",
+      "vertice": {
+        "x_min": 220.0,
+        "y_min": 261.0,
+        "x_max": 649.0,
+        "y_max": 290.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "Android2.2",
+      "vertice": {
+        "x_min": 219.0,
+        "y_min": 310.0,
+        "x_max": 399.0,
+        "y_max": 338.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "assets",
+      "vertice": {
+        "x_min": 216.0,
+        "y_min": 361.0,
+        "x_max": 312.0,
+        "y_max": 389.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "Superclass:",
+      "vertice": {
+        "x_min": 1055.0,
+        "y_min": 392.0,
+        "x_max": 1231.0,
+        "y_max": 428.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "res",
+      "vertice": {
+        "x_min": 212.0,
+        "y_min": 409.0,
+        "x_max": 265.0,
+        "y_max": 439.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "drawable-hdpi",
+      "vertice": {
+        "x_min": 264.0,
+        "y_min": 458.0,
+        "x_max": 487.0,
+        "y_max": 486.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Interfaces.",
+      "vertice": {
+        "x_min": 1055.0,
+        "y_min": 468.0,
+        "x_max": 1216.0,
+        "y_max": 504.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "toicon.png",
+      "vertice": {
+        "x_min": 265.0,
+        "y_min": 501.0,
+        "x_max": 443.0,
+        "y_max": 544.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "tosplash_background.png",
+      "vertice": {
+        "x_min": 264.0,
+        "y_min": 552.0,
+        "x_max": 677.0,
+        "y_max": 593.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "drawable-ldpi",
+      "vertice": {
+        "x_min": 264.0,
+        "y_min": 605.0,
+        "x_max": 480.0,
+        "y_max": 637.0
+      }
+    },
+    {
+      "id": 18,
+      "text": "drawable-mdpi",
+      "vertice": {
+        "x_min": 264.0,
+        "y_min": 656.0,
+        "x_max": 499.0,
+        "y_max": 684.0
+      }
+    }
+  ]
+}

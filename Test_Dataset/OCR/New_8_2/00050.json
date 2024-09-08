@@ -1,0 +1,384 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "Package:",
+      "vertice": {
+        "x_min": 441.0,
+        "y_min": 25.0,
+        "x_max": 529.0,
+        "y_max": 49.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "com.thenewboston.travis",
+      "vertice": {
+        "x_min": 644.0,
+        "y_min": 28.0,
+        "x_max": 889.0,
+        "y_max": 46.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "Br",
+      "vertice": {
+        "x_min": 1259.0,
+        "y_min": 24.0,
+        "x_max": 1279.0,
+        "y_max": 48.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "ston",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 72.0,
+        "x_max": 41.0,
+        "y_max": 101.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Enclosing type",
+      "vertice": {
+        "x_min": 440.0,
+        "y_min": 86.0,
+        "x_max": 623.0,
+        "y_max": 112.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "B",
+      "vertice": {
+        "x_min": 1257.0,
+        "y_min": 86.0,
+        "x_max": 1279.0,
+        "y_max": 111.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "nenewboston.travis",
+      "vertice": {
+        "x_min": 3.0,
+        "y_min": 140.0,
+        "x_max": 187.0,
+        "y_max": 159.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "tingPoint.java",
+      "vertice": {
+        "x_min": 3.0,
+        "y_min": 169.0,
+        "x_max": 141.0,
+        "y_max": 192.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "Name:",
+      "vertice": {
+        "x_min": 439.0,
+        "y_min": 173.0,
+        "x_max": 506.0,
+        "y_max": 200.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "Splash",
+      "vertice": {
+        "x_min": 639.0,
+        "y_min": 173.0,
+        "x_max": 711.0,
+        "y_max": 202.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "erated java Files",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 199.0,
+        "x_max": 163.0,
+        "y_max": 221.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "Modifiers.",
+      "vertice": {
+        "x_min": 440.0,
+        "y_min": 218.0,
+        "x_max": 541.0,
+        "y_max": 242.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Opublic",
+      "vertice": {
+        "x_min": 638.0,
+        "y_min": 211.0,
+        "x_max": 738.0,
+        "y_max": 249.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "Odefault",
+      "vertice": {
+        "x_min": 785.0,
+        "y_min": 216.0,
+        "x_max": 889.0,
+        "y_max": 244.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "O private",
+      "vertice": {
+        "x_min": 929.0,
+        "y_min": 217.0,
+        "x_max": 1032.0,
+        "y_max": 245.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "Oprotected",
+      "vertice": {
+        "x_min": 1077.0,
+        "y_min": 220.0,
+        "x_max": 1203.0,
+        "y_max": 244.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "nenewboston.travis",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 233.0,
+        "x_max": 187.0,
+        "y_max": 251.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "2.2",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 261.0,
+        "x_max": 29.0,
+        "y_max": 285.0
+      }
+    },
+    {
+      "id": 18,
+      "text": "0abstract0final",
+      "vertice": {
+        "x_min": 640.0,
+        "y_min": 259.0,
+        "x_max": 845.0,
+        "y_max": 286.0
+      }
+    },
+    {
+      "id": 19,
+      "text": "Ostatic",
+      "vertice": {
+        "x_min": 896.0,
+        "y_min": 258.0,
+        "x_max": 987.0,
+        "y_max": 286.0
+      }
+    },
+    {
+      "id": 20,
+      "text": "Superclass.",
+      "vertice": {
+        "x_min": 441.0,
+        "y_min": 315.0,
+        "x_max": 552.0,
+        "y_max": 339.0
+      }
+    },
+    {
+      "id": 21,
+      "text": "Java.larg.Object",
+      "vertice": {
+        "x_min": 639.0,
+        "y_min": 314.0,
+        "x_max": 804.0,
+        "y_max": 340.0
+      }
+    },
+    {
+      "id": 22,
+      "text": "Br",
+      "vertice": {
+        "x_min": 1257.0,
+        "y_min": 312.0,
+        "x_max": 1279.0,
+        "y_max": 338.0
+      }
+    },
+    {
+      "id": 23,
+      "text": "ble-ndpi",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 352.0,
+        "x_max": 85.0,
+        "y_max": 380.0
+      }
+    },
+    {
+      "id": 24,
+      "text": "Interfaces.",
+      "vertice": {
+        "x_min": 440.0,
+        "y_min": 364.0,
+        "x_max": 545.0,
+        "y_max": 388.0
+      }
+    },
+    {
+      "id": 25,
+      "text": "n.png",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 388.0,
+        "x_max": 57.0,
+        "y_max": 412.0
+      }
+    },
+    {
+      "id": 26,
+      "text": "ash_background.png",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 418.0,
+        "x_max": 204.0,
+        "y_max": 441.0
+      }
+    },
+    {
+      "id": 27,
+      "text": "ble-ldpi",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 443.0,
+        "x_max": 81.0,
+        "y_max": 474.0
+      }
+    },
+    {
+      "id": 28,
+      "text": "ble-mdpi",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 479.0,
+        "x_max": 93.0,
+        "y_max": 503.0
+      }
+    },
+    {
+      "id": 29,
+      "text": "in.xml",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 540.0,
+        "x_max": 64.0,
+        "y_max": 564.0
+      }
+    },
+    {
+      "id": 30,
+      "text": "Which methodstubswould youlike to create?",
+      "vertice": {
+        "x_min": 443.0,
+        "y_min": 535.0,
+        "x_max": 892.0,
+        "y_max": 553.0
+      }
+    },
+    {
+      "id": 31,
+      "text": "ash.xml",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 572.0,
+        "x_max": 77.0,
+        "y_max": 596.0
+      }
+    },
+    {
+      "id": 32,
+      "text": "Opublicstatic void main(Stringllargs)",
+      "vertice": {
+        "x_min": 643.0,
+        "y_min": 572.0,
+        "x_max": 1027.0,
+        "y_max": 594.0
+      }
+    },
+    {
+      "id": 33,
+      "text": "-land",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 598.0,
+        "x_max": 57.0,
+        "y_max": 630.0
+      }
+    },
+    {
+      "id": 34,
+      "text": "Constructors from superclass",
+      "vertice": {
+        "x_min": 641.0,
+        "y_min": 611.0,
+        "x_max": 963.0,
+        "y_max": 637.0
+      }
+    },
+    {
+      "id": 35,
+      "text": "Inherited abstract methods",
+      "vertice": {
+        "x_min": 641.0,
+        "y_min": 652.0,
+        "x_max": 940.0,
+        "y_max": 679.0
+      }
+    },
+    {
+      "id": 36,
+      "text": "ashsound.mp3",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 664.0,
+        "x_max": 144.0,
+        "y_max": 691.0
+      }
+    },
+    {
+      "id": 37,
+      "text": "Do you want to add comments?(Configure templates and default value here)",
+      "vertice": {
+        "x_min": 441.0,
+        "y_min": 694.0,
+        "x_max": 1195.0,
+        "y_max": 716.0
+      }
+    }
+  ]
+}

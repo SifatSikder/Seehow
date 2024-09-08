@@ -1,0 +1,114 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "*Splash.javaX",
+      "vertice": {
+        "x_min": 25.0,
+        "y_min": 17.0,
+        "x_max": 255.0,
+        "y_max": 45.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 372.0,
+        "y_min": 19.0,
+        "x_max": 627.0,
+        "y_max": 46.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "package com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 55.0,
+        "y_min": 70.0,
+        "x_max": 665.0,
+        "y_max": 105.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "Bimport android.app.Activity",
+      "vertice": {
+        "x_min": 23.0,
+        "y_min": 151.0,
+        "x_max": 584.0,
+        "y_max": 185.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "import android.os.Bundle;",
+      "vertice": {
+        "x_min": 56.0,
+        "y_min": 193.0,
+        "x_max": 529.0,
+        "y_max": 226.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "public class Splash extends Activity[",
+      "vertice": {
+        "x_min": 57.0,
+        "y_min": 275.0,
+        "x_max": 761.0,
+        "y_max": 307.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "@Override",
+      "vertice": {
+        "x_min": 132.0,
+        "y_min": 355.0,
+        "x_max": 304.0,
+        "y_max": 389.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "protected void onCreate(Bundle TravisLoveBacon)",
+      "vertice": {
+        "x_min": 131.0,
+        "y_min": 397.0,
+        "x_max": 1071.0,
+        "y_max": 430.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "// Tooo Auto-generated method stub",
+      "vertice": {
+        "x_min": 207.0,
+        "y_min": 438.0,
+        "x_max": 857.0,
+        "y_max": 471.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "super.onCreate(sayedInstanceState);",
+      "vertice": {
+        "x_min": 212.0,
+        "y_min": 482.0,
+        "x_max": 872.0,
+        "y_max": 514.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "}",
+      "vertice": {
+        "x_min": 125.0,
+        "y_min": 519.0,
+        "x_max": 153.0,
+        "y_max": 557.0
+      }
+    }
+  ]
+}

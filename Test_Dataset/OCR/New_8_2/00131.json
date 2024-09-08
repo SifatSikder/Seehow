@@ -1,0 +1,284 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "public class Splash extends Activityl",
+      "vertice": {
+        "x_min": 55.0,
+        "y_min": 1.0,
+        "x_max": 540.0,
+        "y_max": 20.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Undo Import'Activity'(android.app)",
+      "vertice": {
+        "x_min": 251.0,
+        "y_min": 33.0,
+        "x_max": 737.0,
+        "y_max": 62.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "9Z",
+      "vertice": {
+        "x_min": 779.0,
+        "y_min": 30.0,
+        "x_max": 827.0,
+        "y_max": 62.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "Revert File",
+      "vertice": {
+        "x_min": 244.0,
+        "y_min": 70.0,
+        "x_max": 377.0,
+        "y_max": 98.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "HSave",
+      "vertice": {
+        "x_min": 245.0,
+        "y_min": 110.0,
+        "x_max": 340.0,
+        "y_max": 139.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "Open Declaration",
+      "vertice": {
+        "x_min": 245.0,
+        "y_min": 169.0,
+        "x_max": 464.0,
+        "y_max": 196.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "F3",
+      "vertice": {
+        "x_min": 804.0,
+        "y_min": 172.0,
+        "x_max": 837.0,
+        "y_max": 200.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "Open Type Hierarchy",
+      "vertice": {
+        "x_min": 245.0,
+        "y_min": 206.0,
+        "x_max": 511.0,
+        "y_max": 234.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "F4",
+      "vertice": {
+        "x_min": 804.0,
+        "y_min": 206.0,
+        "x_max": 837.0,
+        "y_max": 234.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "Open Call Hierarchy",
+      "vertice": {
+        "x_min": 243.0,
+        "y_min": 241.0,
+        "x_max": 500.0,
+        "y_max": 270.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "ATH",
+      "vertice": {
+        "x_min": 753.0,
+        "y_min": 235.0,
+        "x_max": 831.0,
+        "y_max": 272.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "Show in Breadcrumb",
+      "vertice": {
+        "x_min": 244.0,
+        "y_min": 278.0,
+        "x_max": 505.0,
+        "y_max": 304.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "B",
+      "vertice": {
+        "x_min": 752.0,
+        "y_min": 277.0,
+        "x_max": 827.0,
+        "y_max": 304.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "Quick Outline",
+      "vertice": {
+        "x_min": 244.0,
+        "y_min": 314.0,
+        "x_max": 419.0,
+        "y_max": 341.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "O6",
+      "vertice": {
+        "x_min": 779.0,
+        "y_min": 311.0,
+        "x_max": 832.0,
+        "y_max": 341.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "Quick Type Hierarchy",
+      "vertice": {
+        "x_min": 243.0,
+        "y_min": 348.0,
+        "x_max": 516.0,
+        "y_max": 376.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "96T",
+      "vertice": {
+        "x_min": 779.0,
+        "y_min": 348.0,
+        "x_max": 829.0,
+        "y_max": 379.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "ShowIn",
+      "vertice": {
+        "x_min": 243.0,
+        "y_min": 384.0,
+        "x_max": 347.0,
+        "y_max": 414.0
+      }
+    },
+    {
+      "id": 18,
+      "text": "Cut",
+      "vertice": {
+        "x_min": 241.0,
+        "y_min": 442.0,
+        "x_max": 293.0,
+        "y_max": 472.0
+      }
+    },
+    {
+      "id": 19,
+      "text": "Copy",
+      "vertice": {
+        "x_min": 243.0,
+        "y_min": 476.0,
+        "x_max": 310.0,
+        "y_max": 513.0
+      }
+    },
+    {
+      "id": 20,
+      "text": "Copy Qualified Name",
+      "vertice": {
+        "x_min": 243.0,
+        "y_min": 516.0,
+        "x_max": 513.0,
+        "y_max": 544.0
+      }
+    },
+    {
+      "id": 21,
+      "text": "Paste",
+      "vertice": {
+        "x_min": 241.0,
+        "y_min": 548.0,
+        "x_max": 312.0,
+        "y_max": 581.0
+      }
+    },
+    {
+      "id": 22,
+      "text": "Quick Fix",
+      "vertice": {
+        "x_min": 243.0,
+        "y_min": 609.0,
+        "x_max": 365.0,
+        "y_max": 637.0
+      }
+    },
+    {
+      "id": 23,
+      "text": "961",
+      "vertice": {
+        "x_min": 779.0,
+        "y_min": 608.0,
+        "x_max": 827.0,
+        "y_max": 639.0
+      }
+    },
+    {
+      "id": 24,
+      "text": "Source",
+      "vertice": {
+        "x_min": 241.0,
+        "y_min": 643.0,
+        "x_max": 331.0,
+        "y_max": 675.0
+      }
+    },
+    {
+      "id": 25,
+      "text": "tas",
+      "vertice": {
+        "x_min": 676.0,
+        "y_min": 642.0,
+        "x_max": 752.0,
+        "y_max": 675.0
+      }
+    },
+    {
+      "id": 26,
+      "text": "Refactor",
+      "vertice": {
+        "x_min": 241.0,
+        "y_min": 676.0,
+        "x_max": 353.0,
+        "y_max": 712.0
+      }
+    },
+    {
+      "id": 27,
+      "text": "THT",
+      "vertice": {
+        "x_min": 676.0,
+        "y_min": 679.0,
+        "x_max": 755.0,
+        "y_max": 712.0
+      }
+    }
+  ]
+}

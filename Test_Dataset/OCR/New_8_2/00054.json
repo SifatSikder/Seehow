@@ -1,0 +1,404 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "S",
+      "vertice": {
+        "x_min": 35.0,
+        "y_min": 1.0,
+        "x_max": 53.0,
+        "y_max": 12.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Package:",
+      "vertice": {
+        "x_min": 441.0,
+        "y_min": 22.0,
+        "x_max": 528.0,
+        "y_max": 51.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "com.lhenewboston.travis",
+      "vertice": {
+        "x_min": 644.0,
+        "y_min": 28.0,
+        "x_max": 889.0,
+        "y_max": 46.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "B",
+      "vertice": {
+        "x_min": 1256.0,
+        "y_min": 22.0,
+        "x_max": 1279.0,
+        "y_max": 48.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "ston",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 77.0,
+        "x_max": 41.0,
+        "y_max": 98.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "Encosing sype",
+      "vertice": {
+        "x_min": 442.0,
+        "y_min": 85.0,
+        "x_max": 624.0,
+        "y_max": 115.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "Bi",
+      "vertice": {
+        "x_min": 1257.0,
+        "y_min": 86.0,
+        "x_max": 1279.0,
+        "y_max": 111.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "nenewboston.travis",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 138.0,
+        "x_max": 188.0,
+        "y_max": 160.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "ash.java",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 169.0,
+        "x_max": 80.0,
+        "y_max": 193.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "Name:",
+      "vertice": {
+        "x_min": 440.0,
+        "y_min": 173.0,
+        "x_max": 506.0,
+        "y_max": 202.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "sassh",
+      "vertice": {
+        "x_min": 640.0,
+        "y_min": 175.0,
+        "x_max": 711.0,
+        "y_max": 202.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "rtingPoint.java",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 200.0,
+        "x_max": 141.0,
+        "y_max": 222.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Modifiers.",
+      "vertice": {
+        "x_min": 440.0,
+        "y_min": 218.0,
+        "x_max": 541.0,
+        "y_max": 242.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "Orpublle",
+      "vertice": {
+        "x_min": 640.0,
+        "y_min": 217.0,
+        "x_max": 737.0,
+        "y_max": 245.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Ordefault",
+      "vertice": {
+        "x_min": 785.0,
+        "y_min": 216.0,
+        "x_max": 889.0,
+        "y_max": 244.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "O prlvate",
+      "vertice": {
+        "x_min": 929.0,
+        "y_min": 216.0,
+        "x_max": 1031.0,
+        "y_max": 244.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "Oprotected",
+      "vertice": {
+        "x_min": 1076.0,
+        "y_min": 220.0,
+        "x_max": 1201.0,
+        "y_max": 242.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "eroted javafiles",
+      "vertice": {
+        "x_min": 3.0,
+        "y_min": 232.0,
+        "x_max": 161.0,
+        "y_max": 250.0
+      }
+    },
+    {
+      "id": 18,
+      "text": "nenewboston.travis",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 261.0,
+        "x_max": 188.0,
+        "y_max": 285.0
+      }
+    },
+    {
+      "id": 19,
+      "text": "0abstract Ofinal",
+      "vertice": {
+        "x_min": 639.0,
+        "y_min": 260.0,
+        "x_max": 845.0,
+        "y_max": 284.0
+      }
+    },
+    {
+      "id": 20,
+      "text": "Ostatic",
+      "vertice": {
+        "x_min": 896.0,
+        "y_min": 258.0,
+        "x_max": 985.0,
+        "y_max": 286.0
+      }
+    },
+    {
+      "id": 21,
+      "text": "2.2",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 291.0,
+        "x_max": 31.0,
+        "y_max": 316.0
+      }
+    },
+    {
+      "id": 22,
+      "text": "Superclass:",
+      "vertice": {
+        "x_min": 441.0,
+        "y_min": 315.0,
+        "x_max": 553.0,
+        "y_max": 339.0
+      }
+    },
+    {
+      "id": 23,
+      "text": "Java.lang.Object",
+      "vertice": {
+        "x_min": 641.0,
+        "y_min": 315.0,
+        "x_max": 801.0,
+        "y_max": 338.0
+      }
+    },
+    {
+      "id": 24,
+      "text": "B",
+      "vertice": {
+        "x_min": 1256.0,
+        "y_min": 312.0,
+        "x_max": 1279.0,
+        "y_max": 336.0
+      }
+    },
+    {
+      "id": 25,
+      "text": "Interfaces.",
+      "vertice": {
+        "x_min": 440.0,
+        "y_min": 364.0,
+        "x_max": 545.0,
+        "y_max": 388.0
+      }
+    },
+    {
+      "id": 26,
+      "text": "ble-ndpi",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 382.0,
+        "x_max": 87.0,
+        "y_max": 410.0
+      }
+    },
+    {
+      "id": 27,
+      "text": "n.png",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 415.0,
+        "x_max": 56.0,
+        "y_max": 444.0
+      }
+    },
+    {
+      "id": 28,
+      "text": "ash_background.png",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 447.0,
+        "x_max": 203.0,
+        "y_max": 473.0
+      }
+    },
+    {
+      "id": 29,
+      "text": "ble-ldpi",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 476.0,
+        "x_max": 79.0,
+        "y_max": 505.0
+      }
+    },
+    {
+      "id": 30,
+      "text": "ble-mdpi",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 508.0,
+        "x_max": 93.0,
+        "y_max": 535.0
+      }
+    },
+    {
+      "id": 31,
+      "text": "Which method stubs would you like to create?",
+      "vertice": {
+        "x_min": 443.0,
+        "y_min": 535.0,
+        "x_max": 892.0,
+        "y_max": 553.0
+      }
+    },
+    {
+      "id": 32,
+      "text": "in.xml",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 572.0,
+        "x_max": 65.0,
+        "y_max": 596.0
+      }
+    },
+    {
+      "id": 33,
+      "text": "Oipubllestaticvoldmain(StringIargs)",
+      "vertice": {
+        "x_min": 643.0,
+        "y_min": 572.0,
+        "x_max": 1027.0,
+        "y_max": 594.0
+      }
+    },
+    {
+      "id": 34,
+      "text": "ash.xml",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 599.0,
+        "x_max": 79.0,
+        "y_max": 630.0
+      }
+    },
+    {
+      "id": 35,
+      "text": "OConstructors from superclass",
+      "vertice": {
+        "x_min": 641.0,
+        "y_min": 611.0,
+        "x_max": 961.0,
+        "y_max": 637.0
+      }
+    },
+    {
+      "id": 36,
+      "text": "-land",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 634.0,
+        "x_max": 57.0,
+        "y_max": 658.0
+      }
+    },
+    {
+      "id": 37,
+      "text": "VInherited abstractmethods",
+      "vertice": {
+        "x_min": 640.0,
+        "y_min": 650.0,
+        "x_max": 940.0,
+        "y_max": 682.0
+      }
+    },
+    {
+      "id": 38,
+      "text": "ashsound.mp3",
+      "vertice": {
+        "x_min": 1.0,
+        "y_min": 696.0,
+        "x_max": 145.0,
+        "y_max": 719.0
+      }
+    },
+    {
+      "id": 39,
+      "text": "Do you want toadd comments? (Configure templates and default valire here)",
+      "vertice": {
+        "x_min": 441.0,
+        "y_min": 694.0,
+        "x_max": 1196.0,
+        "y_max": 716.0
+      }
+    }
+  ]
+}

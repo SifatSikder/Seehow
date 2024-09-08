@@ -1,0 +1,154 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "*Splash.javaX",
+      "vertice": {
+        "x_min": 17.0,
+        "y_min": 17.0,
+        "x_max": 306.0,
+        "y_max": 50.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 430.0,
+        "y_min": 20.0,
+        "x_max": 693.0,
+        "y_max": 54.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "package com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 97.0,
+        "y_min": 77.0,
+        "x_max": 731.0,
+        "y_max": 111.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "Bimport android.app.Activity;",
+      "vertice": {
+        "x_min": 61.0,
+        "y_min": 159.0,
+        "x_max": 649.0,
+        "y_max": 197.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "import android.os.Bundle;",
+      "vertice": {
+        "x_min": 99.0,
+        "y_min": 204.0,
+        "x_max": 591.0,
+        "y_max": 237.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "public classSplash extends Activity{",
+      "vertice": {
+        "x_min": 99.0,
+        "y_min": 289.0,
+        "x_max": 833.0,
+        "y_max": 324.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "com.thenewboston.travis.Splash",
+      "vertice": {
+        "x_min": 421.0,
+        "y_min": 353.0,
+        "x_max": 936.0,
+        "y_max": 384.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "@Override",
+      "vertice": {
+        "x_min": 176.0,
+        "y_min": 373.0,
+        "x_max": 353.0,
+        "y_max": 405.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "protected",
+      "vertice": {
+        "x_min": 174.0,
+        "y_min": 418.0,
+        "x_max": 356.0,
+        "y_max": 451.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "ancestate)[",
+      "vertice": {
+        "x_min": 976.0,
+        "y_min": 418.0,
+        "x_max": 1213.0,
+        "y_max": 450.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "//TO",
+      "vertice": {
+        "x_min": 252.0,
+        "y_min": 457.0,
+        "x_max": 357.0,
+        "y_max": 494.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "super",
+      "vertice": {
+        "x_min": 255.0,
+        "y_min": 503.0,
+        "x_max": 359.0,
+        "y_max": 540.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "PressF2'forfocus",
+      "vertice": {
+        "x_min": 733.0,
+        "y_min": 506.0,
+        "x_max": 968.0,
+        "y_max": 535.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "}",
+      "vertice": {
+        "x_min": 172.0,
+        "y_min": 543.0,
+        "x_max": 200.0,
+        "y_max": 582.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "7",
+      "vertice": {
+        "x_min": 93.0,
+        "y_min": 629.0,
+        "x_max": 120.0,
+        "y_max": 666.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "*Splash.javaX",
+      "vertice": {
+        "x_min": 50.0,
+        "y_min": 16.0,
+        "x_max": 300.0,
+        "y_max": 47.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 429.0,
+        "y_min": 19.0,
+        "x_max": 703.0,
+        "y_max": 50.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "package com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 83.0,
+        "y_min": 77.0,
+        "x_max": 741.0,
+        "y_max": 111.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "public class Splash exte",
+      "vertice": {
+        "x_min": 84.0,
+        "y_min": 157.0,
+        "x_max": 597.0,
+        "y_max": 203.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "7",
+      "vertice": {
+        "x_min": 83.0,
+        "y_min": 254.0,
+        "x_max": 105.0,
+        "y_max": 285.0
+      }
+    }
+  ]
+}
