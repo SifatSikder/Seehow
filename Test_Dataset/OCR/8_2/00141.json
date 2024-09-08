@@ -1,1 +1,154 @@
-{"lines": [{"vertice": {"y_max": 64, "y_min": 37, "x_min": 43, "x_max": 581}, "text": "Select methods to override or implement:", "id": 0}, {"vertice": {"y_max": 64, "y_min": 41, "x_min": 1075, "x_max": 1190}, "text": "Select All", "id": 1}, {"vertice": {"y_max": 117, "y_min": 93, "x_min": 189, "x_max": 284}, "text": "Activity", "id": 2}, {"vertice": {"y_max": 149, "y_min": 128, "x_min": 1059, "x_max": 1208}, "text": "Deselect All", "id": 3}, {"vertice": {"y_max": 159, "y_min": 133, "x_min": 229, "x_max": 718}, "text": "addContentView(View, LayoutParams)", "id": 4}, {"vertice": {"y_max": 198, "y_min": 176, "x_min": 230, "x_max": 485}, "text": "closeContextMenu)", "id": 5}, {"vertice": {"y_max": 242, "y_min": 217, "x_min": 230, "x_max": 485}, "text": "closeOptionsMenu0", "id": 6}, {"vertice": {"y_max": 284, "y_min": 258, "x_min": 229, "x_max": 689}, "text": "createPendingResult(int, Intent, int)", "id": 7}, {"vertice": {"y_max": 326, "y_min": 300, "x_min": 229, "x_max": 588}, "text": "dispatchkeyEvent(KeyEvent)", "id": 8}, {"vertice": {"y_max": 367, "y_min": 341, "x_min": 230, "x_max": 931}, "text": "dispatchPopulateAccessibilityEvent(AccessibilityEvent)", "id": 9}, {"vertice": {"y_max": 408, "y_min": 384, "x_min": 230, "x_max": 666}, "text": "dispatchTouchEvent(MotionEvent)", "id": 10}, {"vertice": {"y_max": 450, "y_min": 424, "x_min": 230, "x_max": 706}, "text": "dispatchTrackballEvent(MotionEvent)", "id": 11}, {"vertice": {"y_max": 551, "y_min": 525, "x_min": 39, "x_max": 235}, "text": "Insertion point:", "id": 12}, {"vertice": {"y_max": 600, "y_min": 580, "x_min": 61, "x_max": 232}, "text": "First member", "id": 13}, {"vertice": {"y_max": 670, "y_min": 648, "x_min": 82, "x_max": 450}, "text": "Generate method comments", "id": 14}, {"vertice": {"y_max": 719, "y_min": 703, "x_min": 37, "x_max": 1239}, "text": "The format of the method stuhs may he configured on the Code Templates preference page", "id": 15}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "Select methods to override orimplement",
+      "vertice": {
+        "x_min": 43.0,
+        "y_min": 33.0,
+        "x_max": 580.0,
+        "y_max": 62.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Select All",
+      "vertice": {
+        "x_min": 1072.0,
+        "y_min": 40.0,
+        "x_max": 1193.0,
+        "y_max": 68.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "Activity",
+      "vertice": {
+        "x_min": 185.0,
+        "y_min": 86.0,
+        "x_max": 287.0,
+        "y_max": 121.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "addContentView(View,LayoutParams,",
+      "vertice": {
+        "x_min": 228.0,
+        "y_min": 130.0,
+        "x_max": 717.0,
+        "y_max": 158.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Deselect All",
+      "vertice": {
+        "x_min": 1059.0,
+        "y_min": 127.0,
+        "x_max": 1211.0,
+        "y_max": 154.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "closeContextMenu()",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 173.0,
+        "x_max": 487.0,
+        "y_max": 200.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "cioseOptionsMenu0",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 216.0,
+        "x_max": 487.0,
+        "y_max": 242.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "createPendingResult(int,Intent,int)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 257.0,
+        "x_max": 689.0,
+        "y_max": 283.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "dispatchKeyEvent(KeyEvent)",
+      "vertice": {
+        "x_min": 231.0,
+        "y_min": 299.0,
+        "x_max": 589.0,
+        "y_max": 326.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "dispatchPopulateAccessibilityEvent(AccessibilityEvent)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 339.0,
+        "x_max": 931.0,
+        "y_max": 365.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "dispatchTouchEvent(MotionEvent)",
+      "vertice": {
+        "x_min": 231.0,
+        "y_min": 384.0,
+        "x_max": 667.0,
+        "y_max": 406.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "dispatchTrackballEvent(MotionEvent)",
+      "vertice": {
+        "x_min": 231.0,
+        "y_min": 424.0,
+        "x_max": 708.0,
+        "y_max": 450.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Insertion point",
+      "vertice": {
+        "x_min": 36.0,
+        "y_min": 523.0,
+        "x_max": 235.0,
+        "y_max": 551.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "First member",
+      "vertice": {
+        "x_min": 57.0,
+        "y_min": 577.0,
+        "x_max": 236.0,
+        "y_max": 604.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Generate method comments",
+      "vertice": {
+        "x_min": 77.0,
+        "y_min": 646.0,
+        "x_max": 451.0,
+        "y_max": 672.0
+      }
+    }
+  ]
+}

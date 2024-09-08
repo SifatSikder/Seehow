@@ -1,1 +1,324 @@
-{"lines": [{"vertice": {"y_max": 95, "y_min": 76, "x_min": 89, "x_max": 285}, "text": "The New Boston", "id": 0}, {"vertice": {"y_max": 134, "y_min": 118, "x_min": 132, "x_max": 165}, "text": "src", "id": 1}, {"vertice": {"y_max": 197, "y_min": 172, "x_min": 222, "x_max": 285}, "text": "New", "id": 2}, {"vertice": {"y_max": 205, "y_min": 174, "x_min": 838, "x_max": 1053}, "text": "Java Project", "id": 3}, {"vertice": {"y_max": 253, "y_min": 220, "x_min": 871, "x_max": 1115}, "text": "Android Project", "id": 4}, {"vertice": {"y_max": 246, "y_min": 211, "x_min": 221, "x_max": 329}, "text": "Go Into", "id": 5}, {"vertice": {"y_max": 252, "y_min": 228, "x_min": 125, "x_max": 174}, "text": "gen", "id": 6}, {"vertice": {"y_max": 301, "y_min": 262, "x_min": 868, "x_max": 1011}, "text": "O Project...", "id": 7}, {"vertice": {"y_max": 314, "y_min": 283, "x_min": 222, "x_max": 539}, "text": "Open in New Window", "id": 8}, {"vertice": {"y_max": 357, "y_min": 326, "x_min": 222, "x_max": 535}, "text": "Open Type Hierarchy", "id": 9}, {"vertice": {"y_max": 394, "y_min": 367, "x_min": 222, "x_max": 335}, "text": "Show In", "id": 10}, {"vertice": {"y_max": 325, "y_min": 302, "x_min": 124, "x_max": 174}, "text": "Anc", "id": 11}, {"vertice": {"y_max": 351, "y_min": 332, "x_min": 741, "x_max": 767}, "text": "F4", "id": 12}, {"vertice": {"y_max": 373, "y_min": 341, "x_min": 883, "x_max": 1001}, "text": "Package", "id": 13}, {"vertice": {"y_max": 421, "y_min": 381, "x_min": 873, "x_max": 962}, "text": "G Class", "id": 14}, {"vertice": {"y_max": 359, "y_min": 346, "x_min": 133, "x_max": 173}, "text": "assi", "id": 15}, {"vertice": {"y_max": 398, "y_min": 384, "x_min": 133, "x_max": 165}, "text": "res", "id": 16}, {"vertice": {"y_max": 460, "y_min": 434, "x_min": 883, "x_max": 1010}, "text": "Interface", "id": 17}, {"vertice": {"y_max": 470, "y_min": 440, "x_min": 266, "x_max": 341}, "text": "Copy", "id": 18}, {"vertice": {"y_max": 516, "y_min": 484, "x_min": 266, "x_max": 581}, "text": "Copy Qualified Name", "id": 19}, {"vertice": {"y_max": 507, "y_min": 482, "x_min": 883, "x_max": 962}, "text": "Enum", "id": 20}, {"vertice": {"y_max": 553, "y_min": 528, "x_min": 881, "x_max": 1045}, "text": "Annotation", "id": 21}, {"vertice": {"y_max": 560, "y_min": 531, "x_min": 266, "x_max": 342}, "text": "Paste", "id": 22}, {"vertice": {"y_max": 558, "y_min": 534, "x_min": 712, "x_max": 759}, "text": "*V", "id": 23}, {"vertice": {"y_max": 614, "y_min": 573, "x_min": 255, "x_max": 360}, "text": "X Delete", "id": 24}, {"vertice": {"y_max": 600, "y_min": 575, "x_min": 883, "x_max": 1086}, "text": "Source Folder", "id": 25}, {"vertice": {"y_max": 653, "y_min": 620, "x_min": 842, "x_max": 1130}, "text": "Java Working Set", "id": 26}, {"vertice": {"y_max": 679, "y_min": 651, "x_min": 224, "x_max": 594}, "text": "& Remove from Context", "id": 27}, {"vertice": {"y_max": 694, "y_min": 667, "x_min": 883, "x_max": 975}, "text": "Folder", "id": 28}, {"vertice": {"y_max": 719, "y_min": 696, "x_min": 223, "x_max": 367}, "text": "Build Path", "id": 29}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "STheNew Boston",
+      "vertice": {
+        "x_min": 34.0,
+        "y_min": 70.0,
+        "x_max": 288.0,
+        "y_max": 99.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Fnsrc",
+      "vertice": {
+        "x_min": 95.0,
+        "y_min": 108.0,
+        "x_max": 167.0,
+        "y_max": 138.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "IE",
+      "vertice": {
+        "x_min": 131.0,
+        "y_min": 151.0,
+        "x_max": 172.0,
+        "y_max": 176.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "New",
+      "vertice": {
+        "x_min": 217.0,
+        "y_min": 168.0,
+        "x_max": 288.0,
+        "y_max": 204.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Java Project",
+      "vertice": {
+        "x_min": 837.0,
+        "y_min": 172.0,
+        "x_max": 1056.0,
+        "y_max": 205.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "Sngen",
+      "vertice": {
+        "x_min": 93.0,
+        "y_min": 218.0,
+        "x_max": 176.0,
+        "y_max": 256.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "Go Into",
+      "vertice": {
+        "x_min": 220.0,
+        "y_min": 212.0,
+        "x_max": 332.0,
+        "y_max": 245.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "Android Project",
+      "vertice": {
+        "x_min": 839.0,
+        "y_min": 217.0,
+        "x_max": 1116.0,
+        "y_max": 253.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "4",
+      "vertice": {
+        "x_min": 100.0,
+        "y_min": 259.0,
+        "x_max": 176.0,
+        "y_max": 294.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "Project....",
+      "vertice": {
+        "x_min": 837.0,
+        "y_min": 265.0,
+        "x_max": 1013.0,
+        "y_max": 300.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "Open inNewwindow",
+      "vertice": {
+        "x_min": 224.0,
+        "y_min": 283.0,
+        "x_max": 537.0,
+        "y_max": 311.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "Anc",
+      "vertice": {
+        "x_min": 95.0,
+        "y_min": 302.0,
+        "x_max": 173.0,
+        "y_max": 326.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Open Type Hierarchy",
+      "vertice": {
+        "x_min": 223.0,
+        "y_min": 324.0,
+        "x_max": 535.0,
+        "y_max": 356.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "F4",
+      "vertice": {
+        "x_min": 736.0,
+        "y_min": 324.0,
+        "x_max": 775.0,
+        "y_max": 357.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Package",
+      "vertice": {
+        "x_min": 837.0,
+        "y_min": 333.0,
+        "x_max": 1002.0,
+        "y_max": 375.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "Show In",
+      "vertice": {
+        "x_min": 220.0,
+        "y_min": 365.0,
+        "x_max": 340.0,
+        "y_max": 398.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "Taew",
+      "vertice": {
+        "x_min": 588.0,
+        "y_min": 365.0,
+        "x_max": 683.0,
+        "y_max": 398.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "res",
+      "vertice": {
+        "x_min": 121.0,
+        "y_min": 379.0,
+        "x_max": 168.0,
+        "y_max": 402.0
+      }
+    },
+    {
+      "id": 18,
+      "text": "Class",
+      "vertice": {
+        "x_min": 875.0,
+        "y_min": 385.0,
+        "x_max": 961.0,
+        "y_max": 418.0
+      }
+    },
+    {
+      "id": 19,
+      "text": "FCopy",
+      "vertice": {
+        "x_min": 221.0,
+        "y_min": 437.0,
+        "x_max": 344.0,
+        "y_max": 474.0
+      }
+    },
+    {
+      "id": 20,
+      "text": "Interface",
+      "vertice": {
+        "x_min": 838.0,
+        "y_min": 433.0,
+        "x_max": 1012.0,
+        "y_max": 463.0
+      }
+    },
+    {
+      "id": 21,
+      "text": "Copy Qualified Name",
+      "vertice": {
+        "x_min": 223.0,
+        "y_min": 484.0,
+        "x_max": 581.0,
+        "y_max": 516.0
+      }
+    },
+    {
+      "id": 22,
+      "text": "BEnum",
+      "vertice": {
+        "x_min": 840.0,
+        "y_min": 479.0,
+        "x_max": 967.0,
+        "y_max": 512.0
+      }
+    },
+    {
+      "id": 23,
+      "text": "Paste",
+      "vertice": {
+        "x_min": 224.0,
+        "y_min": 531.0,
+        "x_max": 345.0,
+        "y_max": 564.0
+      }
+    },
+    {
+      "id": 24,
+      "text": "Aae",
+      "vertice": {
+        "x_min": 708.0,
+        "y_min": 529.0,
+        "x_max": 765.0,
+        "y_max": 561.0
+      }
+    },
+    {
+      "id": 25,
+      "text": "@+Annotation",
+      "vertice": {
+        "x_min": 841.0,
+        "y_min": 528.0,
+        "x_max": 1047.0,
+        "y_max": 556.0
+      }
+    },
+    {
+      "id": 26,
+      "text": "XDelete",
+      "vertice": {
+        "x_min": 224.0,
+        "y_min": 576.0,
+        "x_max": 361.0,
+        "y_max": 609.0
+      }
+    },
+    {
+      "id": 27,
+      "text": "Source Folder",
+      "vertice": {
+        "x_min": 840.0,
+        "y_min": 574.0,
+        "x_max": 1087.0,
+        "y_max": 602.0
+      }
+    },
+    {
+      "id": 28,
+      "text": "JavaWorking Set",
+      "vertice": {
+        "x_min": 844.0,
+        "y_min": 622.0,
+        "x_max": 1131.0,
+        "y_max": 650.0
+      }
+    },
+    {
+      "id": 29,
+      "text": "Remove from Context",
+      "vertice": {
+        "x_min": 227.0,
+        "y_min": 651.0,
+        "x_max": 595.0,
+        "y_max": 682.0
+      }
+    },
+    {
+      "id": 30,
+      "text": "Folder",
+      "vertice": {
+        "x_min": 845.0,
+        "y_min": 666.0,
+        "x_max": 979.0,
+        "y_max": 698.0
+      }
+    },
+    {
+      "id": 31,
+      "text": "Build Path",
+      "vertice": {
+        "x_min": 222.0,
+        "y_min": 691.0,
+        "x_max": 370.0,
+        "y_max": 719.0
+      }
+    }
+  ]
+}

@@ -1,1 +1,54 @@
-{"lines": [{"vertice": {"y_max": 55, "y_min": 14, "x_min": 36, "x_max": 283}, "text": "D Splash.java 3", "id": 0}, {"vertice": {"y_max": 111, "y_min": 68, "x_min": 91, "x_max": 749}, "text": "\u00feackage com. thenewboston.travis;", "id": 1}, {"vertice": {"y_max": 53, "y_min": 14, "x_min": 390, "x_max": 689}, "text": "D startingPoint.java", "id": 2}, {"vertice": {"y_max": 199, "y_min": 164, "x_min": 86, "x_max": 517}, "text": "public class Splash {", "id": 3}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "Splash.java",
+      "vertice": {
+        "x_min": 48.0,
+        "y_min": 16.0,
+        "x_max": 229.0,
+        "y_max": 52.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 412.0,
+        "y_min": 16.0,
+        "x_max": 688.0,
+        "y_max": 50.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "oackage com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 89.0,
+        "y_min": 78.0,
+        "x_max": 740.0,
+        "y_max": 110.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "public class Splash{",
+      "vertice": {
+        "x_min": 87.0,
+        "y_min": 163.0,
+        "x_max": 520.0,
+        "y_max": 199.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "7",
+      "vertice": {
+        "x_min": 83.0,
+        "y_min": 254.0,
+        "x_max": 105.0,
+        "y_max": 286.0
+      }
+    }
+  ]
+}

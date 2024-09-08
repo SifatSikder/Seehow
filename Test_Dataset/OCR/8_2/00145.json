@@ -1,1 +1,154 @@
-{"lines": [{"vertice": {"y_max": 64, "y_min": 38, "x_min": 43, "x_max": 581}, "text": "Select methods to override or implement:", "id": 0}, {"vertice": {"y_max": 64, "y_min": 41, "x_min": 1075, "x_max": 1191}, "text": "Select All", "id": 1}, {"vertice": {"y_max": 107, "y_min": 75, "x_min": 229, "x_max": 709}, "text": "dispatch irackbaIEvent(MotionEvent)", "id": 2}, {"vertice": {"y_max": 145, "y_min": 116, "x_min": 230, "x_max": 444}, "text": "findViewByld(int)", "id": 3}, {"vertice": {"y_max": 149, "y_min": 128, "x_min": 1059, "x_max": 1208}, "text": "Deselect All", "id": 4}, {"vertice": {"y_max": 183, "y_min": 160, "x_min": 230, "x_max": 316}, "text": "finisho", "id": 5}, {"vertice": {"y_max": 236, "y_min": 201, "x_min": 225, "x_max": 446}, "text": "inishActivity(int)", "id": 6}, {"vertice": {"y_max": 269, "y_min": 236, "x_min": 225, "x_max": 695}, "text": "finishActivityFromChild(Activity, int)", "id": 7}, {"vertice": {"y_max": 311, "y_min": 285, "x_min": 230, "x_max": 547}, "text": "finishFromChild(Activity)", "id": 8}, {"vertice": {"y_max": 355, "y_min": 324, "x_min": 230, "x_max": 472}, "text": "getCallingActivityo", "id": 9}, {"vertice": {"y_max": 394, "y_min": 368, "x_min": 230, "x_max": 482}, "text": "getCallingPackage0", "id": 10}, {"vertice": {"y_max": 436, "y_min": 408, "x_min": 229, "x_max": 605}, "text": "getChangingConfigurations)", "id": 11}, {"vertice": {"y_max": 551, "y_min": 525, "x_min": 39, "x_max": 235}, "text": "Insertion point:", "id": 12}, {"vertice": {"y_max": 599, "y_min": 580, "x_min": 61, "x_max": 232}, "text": "First member", "id": 13}, {"vertice": {"y_max": 669, "y_min": 648, "x_min": 82, "x_max": 450}, "text": "Generate method comments", "id": 14}, {"vertice": {"y_max": 719, "y_min": 703, "x_min": 37, "x_max": 1239}, "text": "The format of the method stuhs may be confiqured on the Code Templates preference page", "id": 15}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "Select methods to override orimplement",
+      "vertice": {
+        "x_min": 43.0,
+        "y_min": 33.0,
+        "x_max": 581.0,
+        "y_max": 62.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "SelectAll",
+      "vertice": {
+        "x_min": 1073.0,
+        "y_min": 42.0,
+        "x_max": 1192.0,
+        "y_max": 66.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "dispatcnirackbanevent(motionEvent)",
+      "vertice": {
+        "x_min": 228.0,
+        "y_min": 78.0,
+        "x_max": 707.0,
+        "y_max": 101.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "findViewByld(int)",
+      "vertice": {
+        "x_min": 227.0,
+        "y_min": 115.0,
+        "x_max": 446.0,
+        "y_max": 146.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Deselect All",
+      "vertice": {
+        "x_min": 1057.0,
+        "y_min": 127.0,
+        "x_max": 1212.0,
+        "y_max": 154.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "finisho",
+      "vertice": {
+        "x_min": 227.0,
+        "y_min": 158.0,
+        "x_max": 320.0,
+        "y_max": 187.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "finishActivity(int)",
+      "vertice": {
+        "x_min": 227.0,
+        "y_min": 201.0,
+        "x_max": 448.0,
+        "y_max": 228.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "finishActivityFromChild(Activity,int)",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 242.0,
+        "x_max": 697.0,
+        "y_max": 269.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "finishFromChild(Activity)",
+      "vertice": {
+        "x_min": 228.0,
+        "y_min": 282.0,
+        "x_max": 548.0,
+        "y_max": 311.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "getCallingActivityO",
+      "vertice": {
+        "x_min": 229.0,
+        "y_min": 326.0,
+        "x_max": 473.0,
+        "y_max": 353.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "getCallingPackageO",
+      "vertice": {
+        "x_min": 228.0,
+        "y_min": 368.0,
+        "x_max": 484.0,
+        "y_max": 394.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "getChangingConnigurationso",
+      "vertice": {
+        "x_min": 228.0,
+        "y_min": 409.0,
+        "x_max": 605.0,
+        "y_max": 435.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "Insertion point",
+      "vertice": {
+        "x_min": 35.0,
+        "y_min": 521.0,
+        "x_max": 236.0,
+        "y_max": 552.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "First member",
+      "vertice": {
+        "x_min": 57.0,
+        "y_min": 577.0,
+        "x_max": 235.0,
+        "y_max": 604.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Generate method comments",
+      "vertice": {
+        "x_min": 73.0,
+        "y_min": 646.0,
+        "x_max": 452.0,
+        "y_max": 672.0
+      }
+    }
+  ]
+}

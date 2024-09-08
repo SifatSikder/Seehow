@@ -1,1 +1,184 @@
-{"lines": [{"vertice": {"y_max": 143, "y_min": 106, "x_min": 393, "x_max": 483}, "text": "Splash", "id": 0}, {"vertice": {"y_max": 134, "y_min": 111, "x_min": 112, "x_max": 195}, "text": "Name:", "id": 1}, {"vertice": {"y_max": 206, "y_min": 163, "x_min": 1033, "x_max": 1169}, "text": "O protected", "id": 2}, {"vertice": {"y_max": 206, "y_min": 164, "x_min": 832, "x_max": 934}, "text": "O private", "id": 3}, {"vertice": {"y_max": 195, "y_min": 172, "x_min": 112, "x_max": 244}, "text": "Modifiers:", "id": 4}, {"vertice": {"y_max": 194, "y_min": 172, "x_min": 637, "x_max": 730}, "text": "default", "id": 5}, {"vertice": {"y_max": 199, "y_min": 173, "x_min": 436, "x_max": 515}, "text": "public", "id": 6}, {"vertice": {"y_max": 258, "y_min": 228, "x_min": 434, "x_max": 669}, "text": "abstract O final", "id": 7}, {"vertice": {"y_max": 253, "y_min": 232, "x_min": 794, "x_max": 863}, "text": "static", "id": 8}, {"vertice": {"y_max": 325, "y_min": 304, "x_min": 1257, "x_max": 1279}, "text": "Br", "id": 9}, {"vertice": {"y_max": 334, "y_min": 302, "x_min": 111, "x_max": 261}, "text": "Superclass:", "id": 10}, {"vertice": {"y_max": 335, "y_min": 303, "x_min": 389, "x_max": 610}, "text": "java.lang.Object", "id": 11}, {"vertice": {"y_max": 397, "y_min": 374, "x_min": 113, "x_max": 250}, "text": "Interfaces:", "id": 12}, {"vertice": {"y_max": 532, "y_min": 512, "x_min": 1265, "x_max": 1279}, "text": "R.", "id": 13}, {"vertice": {"y_max": 637, "y_min": 609, "x_min": 110, "x_max": 737}, "text": "Which method stubs would you like to create?", "id": 14}, {"vertice": {"y_max": 691, "y_min": 662, "x_min": 435, "x_max": 925}, "text": "public static void main(String[] args)", "id": 15}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "Lrcrosngtype.",
+      "vertice": {
+        "x_min": 153.0,
+        "y_min": 1.0,
+        "x_max": 360.0,
+        "y_max": 19.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Name:",
+      "vertice": {
+        "x_min": 108.0,
+        "y_min": 109.0,
+        "x_max": 199.0,
+        "y_max": 136.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "Splash",
+      "vertice": {
+        "x_min": 389.0,
+        "y_min": 109.0,
+        "x_max": 488.0,
+        "y_max": 142.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "Modifiers.",
+      "vertice": {
+        "x_min": 107.0,
+        "y_min": 165.0,
+        "x_max": 249.0,
+        "y_max": 200.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "public",
+      "vertice": {
+        "x_min": 433.0,
+        "y_min": 169.0,
+        "x_max": 520.0,
+        "y_max": 199.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "default",
+      "vertice": {
+        "x_min": 631.0,
+        "y_min": 165.0,
+        "x_max": 733.0,
+        "y_max": 201.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "private",
+      "vertice": {
+        "x_min": 835.0,
+        "y_min": 171.0,
+        "x_max": 932.0,
+        "y_max": 199.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "protected",
+      "vertice": {
+        "x_min": 1037.0,
+        "y_min": 168.0,
+        "x_max": 1173.0,
+        "y_max": 200.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "abstract",
+      "vertice": {
+        "x_min": 432.0,
+        "y_min": 229.0,
+        "x_max": 545.0,
+        "y_max": 257.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "0final",
+      "vertice": {
+        "x_min": 567.0,
+        "y_min": 226.0,
+        "x_max": 673.0,
+        "y_max": 259.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "static",
+      "vertice": {
+        "x_min": 783.0,
+        "y_min": 229.0,
+        "x_max": 867.0,
+        "y_max": 258.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "Superclass:",
+      "vertice": {
+        "x_min": 108.0,
+        "y_min": 303.0,
+        "x_max": 264.0,
+        "y_max": 333.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "java.lang.Object",
+      "vertice": {
+        "x_min": 389.0,
+        "y_min": 304.0,
+        "x_max": 611.0,
+        "y_max": 332.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "Br",
+      "vertice": {
+        "x_min": 1253.0,
+        "y_min": 302.0,
+        "x_max": 1279.0,
+        "y_max": 330.0
+      }
+    },
+    {
+      "id": 14,
+      "text": "Interfaces:",
+      "vertice": {
+        "x_min": 109.0,
+        "y_min": 369.0,
+        "x_max": 255.0,
+        "y_max": 401.0
+      }
+    },
+    {
+      "id": 15,
+      "text": "R",
+      "vertice": {
+        "x_min": 1261.0,
+        "y_min": 511.0,
+        "x_max": 1279.0,
+        "y_max": 535.0
+      }
+    },
+    {
+      "id": 16,
+      "text": "Which methodstubs wouldyou like to create7",
+      "vertice": {
+        "x_min": 111.0,
+        "y_min": 609.0,
+        "x_max": 737.0,
+        "y_max": 635.0
+      }
+    },
+    {
+      "id": 17,
+      "text": "public static void main(Stringil args)",
+      "vertice": {
+        "x_min": 395.0,
+        "y_min": 660.0,
+        "x_max": 925.0,
+        "y_max": 692.0
+      }
+    }
+  ]
+}

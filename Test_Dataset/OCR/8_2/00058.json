@@ -1,1 +1,144 @@
-{"lines": [{"vertice": {"y_max": 77, "y_min": 38, "x_min": 632, "x_max": 885}, "text": "D Splash.java X", "id": 0}, {"vertice": {"y_max": 83, "y_min": 39, "x_min": 1, "x_max": 276}, "text": "kage Explorer 8", "id": 1}, {"vertice": {"y_max": 143, "y_min": 97, "x_min": 686, "x_max": 1273}, "text": "package com.thenewboston.tra", "id": 2}, {"vertice": {"y_max": 206, "y_min": 180, "x_min": 0, "x_max": 248}, "text": "The New Boston", "id": 3}, {"vertice": {"y_max": 227, "y_min": 192, "x_min": 686, "x_max": 1125}, "text": "public class Splash {", "id": 4}, {"vertice": {"y_max": 264, "y_min": 222, "x_min": 18, "x_max": 88}, "text": "# src", "id": 5}, {"vertice": {"y_max": 308, "y_min": 282, "x_min": 90, "x_max": 490}, "text": "com.thenewboston.travis", "id": 6}, {"vertice": {"y_max": 369, "y_min": 327, "x_min": 111, "x_max": 313}, "text": "D Splash.java", "id": 7}, {"vertice": {"y_max": 424, "y_min": 378, "x_min": 114, "x_max": 414}, "text": "D starting Point.java", "id": 8}, {"vertice": {"y_max": 474, "y_min": 426, "x_min": 26, "x_max": 450}, "text": "gen [Generated Java Files]", "id": 9}, {"vertice": {"y_max": 520, "y_min": 483, "x_min": 40, "x_max": 489}, "text": "O com.thenewboston.travis", "id": 10}, {"vertice": {"y_max": 569, "y_min": 538, "x_min": 31, "x_max": 227}, "text": "Android 2.2", "id": 11}, {"vertice": {"y_max": 615, "y_min": 594, "x_min": 42, "x_max": 137}, "text": "assets", "id": 12}, {"vertice": {"y_max": 666, "y_min": 648, "x_min": 43, "x_max": 86}, "text": "res", "id": 13}, {"vertice": {"y_max": 719, "y_min": 686, "x_min": 11, "x_max": 324}, "text": "Ve drawable-hdpi", "id": 14}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "kage ExplorerX",
+      "vertice": {
+        "x_min": 2.0,
+        "y_min": 43.0,
+        "x_max": 278.0,
+        "y_max": 73.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "Splash.java",
+      "vertice": {
+        "x_min": 648.0,
+        "y_min": 41.0,
+        "x_max": 890.0,
+        "y_max": 73.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "package com.thenewboston.tra",
+      "vertice": {
+        "x_min": 684.0,
+        "y_min": 102.0,
+        "x_max": 1273.0,
+        "y_max": 135.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "The New Boston",
+      "vertice": {
+        "x_min": 2.0,
+        "y_min": 176.0,
+        "x_max": 250.0,
+        "y_max": 211.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "public class Splash[",
+      "vertice": {
+        "x_min": 685.0,
+        "y_min": 192.0,
+        "x_max": 1127.0,
+        "y_max": 228.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "Ecom.thenewboston.travis",
+      "vertice": {
+        "x_min": 40.0,
+        "y_min": 281.0,
+        "x_max": 491.0,
+        "y_max": 312.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "Splash.java",
+      "vertice": {
+        "x_min": 134.0,
+        "y_min": 332.0,
+        "x_max": 314.0,
+        "y_max": 362.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 123.0,
+        "y_min": 381.0,
+        "x_max": 414.0,
+        "y_max": 417.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "#gen [Generated Java Files]",
+      "vertice": {
+        "x_min": 7.0,
+        "y_min": 429.0,
+        "x_max": 453.0,
+        "y_max": 467.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "com.thenewboston.travis",
+      "vertice": {
+        "x_min": 41.0,
+        "y_min": 486.0,
+        "x_max": 491.0,
+        "y_max": 516.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "Android2.2",
+      "vertice": {
+        "x_min": 37.0,
+        "y_min": 536.0,
+        "x_max": 231.0,
+        "y_max": 565.0
+      }
+    },
+    {
+      "id": 11,
+      "text": "assets",
+      "vertice": {
+        "x_min": 37.0,
+        "y_min": 590.0,
+        "x_max": 139.0,
+        "y_max": 618.0
+      }
+    },
+    {
+      "id": 12,
+      "text": "res",
+      "vertice": {
+        "x_min": 40.0,
+        "y_min": 641.0,
+        "x_max": 91.0,
+        "y_max": 672.0
+      }
+    },
+    {
+      "id": 13,
+      "text": "drawable-hdpi",
+      "vertice": {
+        "x_min": 84.0,
+        "y_min": 690.0,
+        "x_max": 324.0,
+        "y_max": 717.0
+      }
+    }
+  ]
+}

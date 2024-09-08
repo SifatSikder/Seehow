@@ -1,1 +1,114 @@
-{"lines": [{"vertice": {"y_max": 56, "y_min": 13, "x_min": 31, "x_max": 227}, "text": "D Splash.java", "id": 0}, {"vertice": {"y_max": 55, "y_min": 15, "x_min": 354, "x_max": 705}, "text": "D startingPoint.java X", "id": 1}, {"vertice": {"y_max": 113, "y_min": 70, "x_min": 84, "x_max": 739}, "text": "\u00feackage com.thenewboston.travis;", "id": 2}, {"vertice": {"y_max": 199, "y_min": 166, "x_min": 50, "x_max": 655}, "text": "e import android.app.Activity;", "id": 3}, {"vertice": {"y_max": 337, "y_min": 292, "x_min": 86, "x_max": 1013}, "text": "public class startingPoint fextends Activity {", "id": 4}, {"vertice": {"y_max": 377, "y_min": 337, "x_min": 168, "x_max": 1178}, "text": "/** Called when the activity is first created. */", "id": 5}, {"vertice": {"y_max": 420, "y_min": 388, "x_min": 169, "x_max": 409}, "text": "int counter;", "id": 6}, {"vertice": {"y_max": 464, "y_min": 431, "x_min": 170, "x_max": 491}, "text": "Button add, sub;", "id": 7}, {"vertice": {"y_max": 510, "y_min": 474, "x_min": 170, "x_max": 511}, "text": "TextView display;", "id": 8}, {"vertice": {"y_max": 639, "y_min": 606, "x_min": 168, "x_max": 351}, "text": "e0verride", "id": 9}, {"vertice": {"y_max": 687, "y_min": 652, "x_min": 170, "x_max": 1177}, "text": "public void onCreate(Bundle savedInstanceState) {", "id": 10}, {"vertice": {"y_max": 719, "y_min": 697, "x_min": 253, "x_max": 965}, "text": "super. onCreote(sovedInstonceState):", "id": 11}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "Splash.java",
+      "vertice": {
+        "x_min": 49.0,
+        "y_min": 16.0,
+        "x_max": 228.0,
+        "y_max": 52.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.javaX",
+      "vertice": {
+        "x_min": 371.0,
+        "y_min": 16.0,
+        "x_max": 705.0,
+        "y_max": 49.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "oackage com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 88.0,
+        "y_min": 78.0,
+        "x_max": 739.0,
+        "y_max": 110.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "import android.app.Activity",
+      "vertice": {
+        "x_min": 48.0,
+        "y_min": 161.0,
+        "x_max": 656.0,
+        "y_max": 200.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "public class startingPoint fextends Activity{",
+      "vertice": {
+        "x_min": 88.0,
+        "y_min": 296.0,
+        "x_max": 1016.0,
+        "y_max": 332.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "/** Called when the activity is first created.*/",
+      "vertice": {
+        "x_min": 164.0,
+        "y_min": 336.0,
+        "x_max": 1179.0,
+        "y_max": 376.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "int counter:",
+      "vertice": {
+        "x_min": 168.0,
+        "y_min": 385.0,
+        "x_max": 410.0,
+        "y_max": 420.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "Button add,sub;",
+      "vertice": {
+        "x_min": 169.0,
+        "y_min": 431.0,
+        "x_max": 493.0,
+        "y_max": 463.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "TextView display;",
+      "vertice": {
+        "x_min": 167.0,
+        "y_min": 470.0,
+        "x_max": 512.0,
+        "y_max": 511.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "eoverride",
+      "vertice": {
+        "x_min": 168.0,
+        "y_min": 608.0,
+        "x_max": 351.0,
+        "y_max": 639.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "public void onCreateBundle savedInstanceState){",
+      "vertice": {
+        "x_min": 167.0,
+        "y_min": 651.0,
+        "x_max": 1181.0,
+        "y_max": 686.0
+      }
+    }
+  ]
+}

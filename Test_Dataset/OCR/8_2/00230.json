@@ -1,1 +1,114 @@
-{"lines": [{"vertice": {"y_max": 51, "y_min": 12, "x_min": 352, "x_max": 629}, "text": "D startingPoint.java", "id": 0}, {"vertice": {"y_max": 51, "y_min": 16, "x_min": 30, "x_max": 253}, "text": "*Splash.java X", "id": 1}, {"vertice": {"y_max": 104, "y_min": 72, "x_min": 57, "x_max": 660}, "text": "package com.thenewboston.travis;", "id": 2}, {"vertice": {"y_max": 187, "y_min": 148, "x_min": 38, "x_max": 583}, "text": "B import android.app.Activity;", "id": 3}, {"vertice": {"y_max": 226, "y_min": 195, "x_min": 58, "x_max": 527}, "text": "import android.os.Bundle;", "id": 4}, {"vertice": {"y_max": 309, "y_min": 276, "x_min": 57, "x_max": 761}, "text": "public class Splash extends Activity{", "id": 5}, {"vertice": {"y_max": 384, "y_min": 359, "x_min": 132, "x_max": 302}, "text": "e0verride", "id": 6}, {"vertice": {"y_max": 433, "y_min": 392, "x_min": 134, "x_max": 1123}, "text": "protected void onCreate(Bundle favedInstanceState) {", "id": 7}, {"vertice": {"y_max": 478, "y_min": 436, "x_min": 197, "x_max": 855}, "text": "// TODO Auto-generated method stub", "id": 8}, {"vertice": {"y_max": 513, "y_min": 481, "x_min": 211, "x_max": 870}, "text": "super.onCreate(savedInstanceState);", "id": 9}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "*Splash.javaX",
+      "vertice": {
+        "x_min": 25.0,
+        "y_min": 17.0,
+        "x_max": 255.0,
+        "y_max": 45.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "startingPoint.java",
+      "vertice": {
+        "x_min": 372.0,
+        "y_min": 19.0,
+        "x_max": 627.0,
+        "y_max": 46.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "package com.thenewboston.travis;",
+      "vertice": {
+        "x_min": 55.0,
+        "y_min": 70.0,
+        "x_max": 665.0,
+        "y_max": 105.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "Bimport android.app.Activity",
+      "vertice": {
+        "x_min": 23.0,
+        "y_min": 151.0,
+        "x_max": 584.0,
+        "y_max": 185.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "import android.os.Bundle;",
+      "vertice": {
+        "x_min": 56.0,
+        "y_min": 193.0,
+        "x_max": 529.0,
+        "y_max": 226.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "public class Splash extends Activity",
+      "vertice": {
+        "x_min": 57.0,
+        "y_min": 275.0,
+        "x_max": 761.0,
+        "y_max": 307.0
+      }
+    },
+    {
+      "id": 6,
+      "text": "@Override",
+      "vertice": {
+        "x_min": 132.0,
+        "y_min": 355.0,
+        "x_max": 304.0,
+        "y_max": 389.0
+      }
+    },
+    {
+      "id": 7,
+      "text": "protected void onCreate(Bundle $avedInstanceState){",
+      "vertice": {
+        "x_min": 131.0,
+        "y_min": 397.0,
+        "x_max": 1127.0,
+        "y_max": 430.0
+      }
+    },
+    {
+      "id": 8,
+      "text": "// Tooo Auto-generated method stub",
+      "vertice": {
+        "x_min": 207.0,
+        "y_min": 438.0,
+        "x_max": 859.0,
+        "y_max": 471.0
+      }
+    },
+    {
+      "id": 9,
+      "text": "super.onCreate(savedInstanceState);",
+      "vertice": {
+        "x_min": 211.0,
+        "y_min": 482.0,
+        "x_max": 872.0,
+        "y_max": 512.0
+      }
+    },
+    {
+      "id": 10,
+      "text": "}",
+      "vertice": {
+        "x_min": 125.0,
+        "y_min": 518.0,
+        "x_max": 153.0,
+        "y_max": 557.0
+      }
+    }
+  ]
+}

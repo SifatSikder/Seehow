@@ -1,1 +1,64 @@
-{"lines": [{"vertice": {"y_max": 42, "y_min": 1, "x_min": 4, "x_max": 253}, "text": "roid.os.Bundle;", "id": 0}, {"vertice": {"y_max": 115, "y_min": 75, "x_min": 1, "x_max": 455}, "text": "ss Splash extends Activity{", "id": 1}, {"vertice": {"y_max": 176, "y_min": 153, "x_min": 0, "x_max": 45}, "text": "ide", "id": 2}, {"vertice": {"y_max": 218, "y_min": 190, "x_min": 0, "x_max": 782}, "text": "ted void onCreate(Bundle savedInstanceState) {", "id": 3}, {"vertice": {"y_max": 255, "y_min": 227, "x_min": 15, "x_max": 543}, "text": "TODO Auto-generated method stub", "id": 4}, {"vertice": {"y_max": 291, "y_min": 264, "x_min": 0, "x_max": 555}, "text": "per.onCreate(savedInstanceState);", "id": 5}]}
+{
+  "lines": [
+    {
+      "id": 0,
+      "text": "oid.os.Bundle;",
+      "vertice": {
+        "x_min": 3.0,
+        "y_min": 7.0,
+        "x_max": 248.0,
+        "y_max": 34.0
+      }
+    },
+    {
+      "id": 1,
+      "text": "ss Splash extends Activity",
+      "vertice": {
+        "x_min": 4.0,
+        "y_min": 78.0,
+        "x_max": 459.0,
+        "y_max": 109.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "ide",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 150.0,
+        "x_max": 49.0,
+        "y_max": 180.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "ted void onCreate(Bundle savedInstanceState)[",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 187.0,
+        "x_max": 783.0,
+        "y_max": 218.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Tooo Auto-generatedI methodI stub",
+      "vertice": {
+        "x_min": 11.0,
+        "y_min": 225.0,
+        "x_max": 543.0,
+        "y_max": 254.0
+      }
+    },
+    {
+      "id": 5,
+      "text": "per.onCreate(savedInstanceState);",
+      "vertice": {
+        "x_min": 0.0,
+        "y_min": 259.0,
+        "x_max": 557.0,
+        "y_max": 294.0
+      }
+    }
+  ]
+}
