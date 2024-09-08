@@ -5,7 +5,7 @@ import numpy as np
 from tqdm import tqdm
 from transformers import BertTokenizer, BertForNextSentencePrediction
 import torch
-import pymysql
+# import pymysql
 import difflib
 import re
 
@@ -20,15 +20,15 @@ S_LEN = 128
 
 label_dict = {'0':'others', '6':'enter_text', '7':'enter_text_popup_a', '8':'enter_text_popup_d', '9':'delete', '10':'popup', '11':'select', '12':'deselect', '13':'scroll', '14':'switch', '15':'enter'}
 
-config = {
-  'host': '172.17.0.2',
-  'port': 3306,
-  'user': 'root',
-  'passwd':'123',
-  'db': 'workflow',
-  'charset': 'utf8',
-  'cursorclass': pymysql.cursors.DictCursor
-}
+# config = {
+#   'host': '172.17.0.2',
+#   'port': 3306,
+#   'user': 'root',
+#   'passwd':'123',
+#   'db': 'workflow',
+#   'charset': 'utf8',
+#   'cursorclass': pymysql.cursors.DictCursor
+# }
 
 def compute_action_overlap(y1, y2, y3, y4):
   if y3 > y2 or y1 > y4:
@@ -181,8 +181,8 @@ def compute_clip(folder, actions, annotations, captions):
   return clips
 
 def main():
-  connect = pymysql.connect(**config)
-  cursor = connect.cursor()
+  # connect = pymysql.connect(**config)
+  # cursor = connect.cursor()
   #cursor.execute('DROP TABLE IF EXISTS video')
   #cursor.execute('CREATE TABLE video (Id int primary key auto_increment, Name varchar(20), Step int, Frame varchar(100), Fragment varchar(100), Code varchar(200), Action varchar(20), Parent int, Caption text, Summary text)')
   folder_list = []
@@ -206,12 +206,12 @@ def main():
     for i in range(len(clips)):
       fragment = ','.join(list(map(lambda x: str(x), clips[i]['frame'])))
       key_frame = '{:05},{:05}'.format(clips[i]['key_frame'][0] + 1, clips[i]['key_frame'][1] + 1)
-      cursor.execute('INSERT INTO video (Name, Caption, Step, Frame, Fragment, Code, Action, Parent) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)', (folder, clips[i]['caption'], i+1, key_frame, fragment, clips[i]['code'], clips[i]['action'], clips[i]['parent']))
+      # cursor.execute('INSERT INTO video (Name, Caption, Step, Frame, Fragment, Code, Action, Parent) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)', (folder, clips[i]['caption'], i+1, key_frame, fragment, clips[i]['code'], clips[i]['action'], clips[i]['parent']))
 
-  print (cursor.execute('SELECT * FROM video'))
-  connect.commit()
-  cursor.close()
-  connect.close()
+  # print (cursor.execute('SELECT * FROM video'))
+  # connect.commit()
+  # cursor.close()
+  # connect.close()
 
 if __name__ == '__main__':
   main()
