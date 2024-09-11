@@ -91,7 +91,7 @@ def start():
     boxes_nms = non_max_suppression(boxes, 0.3)
     max_box = find_max(boxes_nms)
     image_old = image.copy()
-    box_list.append('{} {} {} {} {} {} {}\n'.format(image_file.split('.')[0], max_box[0], max_box[1], max_box[2], max_box[3], max_box[5], max_box[6]))
+    box_list.append(f'{image_file.split('.')[0]} {max_box[0]} {max_box[1]} {max_box[2]} {max_box[3]} {max_box[5]} {max_box[6]}\n')
   with open(os.path.join(output_path, video + '.txt'), 'w') as annotation_file:
      annotation_file.writelines(box_list) 
       
